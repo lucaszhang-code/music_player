@@ -95,6 +95,13 @@ lrcBtn.addEventListener("click", () => {
   }
 });
 
+//点击歌词关闭图标关闭歌词界面
+const closeLrcBtn=document.querySelector('#close-lrc')
+closeLrcBtn.addEventListener('click',()=>{
+  lrcBtn.classList.remove("lrcBtn-active");
+  lrcContainer.classList.remove("lrcContainer-active");
+})
+
 //点击歌曲列表展开歌曲列表
 const list = document.querySelector(".list");
 const listBtn = document.querySelector(".container .icon-liebiao");
@@ -107,6 +114,13 @@ listBtn.addEventListener("click", () => {
     listBtn.classList.remove("listBtn-active");
   }
 });
+
+//点击歌曲列表关闭图标关闭歌词界面
+const closeListBtn=document.querySelector('#list-close')
+closeListBtn.addEventListener('click',()=>{
+  list.classList.remove("list-active");
+  listBtn.classList.remove("listBtn-active");
+})
 
 //把songData的数据填入相应的位置
 

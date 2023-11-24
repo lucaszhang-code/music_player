@@ -25,6 +25,8 @@ function setColorsFromImage(img) {
   if (dominantColor && textColor) {
     document.body.style.backgroundColor = rgbToString(dominantColor);
     document.body.style.color = rgbToString(textColor);
+    document.querySelector('.lrc-container').style.backgroundColor=rgbToString(dominantColor);
+    document.querySelector('.list').style.backgroundColor=rgbToString(dominantColor);
     const listItems = document.querySelectorAll(".list ul li");
     for (let li of listItems) {
       li.style.borderColor = rgbToString(textColor);

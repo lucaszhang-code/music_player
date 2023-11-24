@@ -13,7 +13,7 @@ const listLi = songData
   .join(" ");
 
 listUL.innerHTML = listLi;
-const listItem = document.querySelectorAll(".list i");
+const listItem = document.querySelectorAll(".list ul i");
 
 //更新图标状态
 const updateList = (id) => {

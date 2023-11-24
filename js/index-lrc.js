@@ -75,11 +75,16 @@ const changeLrc = (i) => {
 
   let maxOffSet = dom.ul.clientHeight - containerHeight;
 
+const lrcContainerMarginTop=document.querySelector('.lrc-container li')
+const computedStyle = window.getComputedStyle(lrcContainerMarginTop);
+const marginTop = computedStyle.marginTop;
+const marginTopValue=marginTop.split('px')
+
   const setOffset = () => {
     let index = findIndex();
     let liHeight = cumulativeHeights[index];
     let offset =
-      liHeight + liHeights[index] / 2 + (index + 6) * 20 - containerHeight / 2;
+      liHeight + liHeights[index] / 2 + (index + 6) * marginTopValue[0] - containerHeight / 2;
 
     if (offset < 0) offset = 0;
     // else if (offset > maxOffSet) offset = maxOffSet;

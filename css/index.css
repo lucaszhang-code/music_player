@@ -15,6 +15,16 @@ body {
   transition: all 0.5s;
 }
 
+@media screen and (max-width: 500px){
+  body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 i {
   cursor: pointer;
 }
@@ -30,7 +40,6 @@ i:hover {
   display: flex;
   flex-wrap: wrap;
   width: 300px;
-  min-width: 300px;
   height: 500px;
   justify-content: center;
   align-items: center;
@@ -173,11 +182,71 @@ i:hover {
   border-radius: 5px;
 }
 
+@media screen and (max-width: 500px) {
+  .container {
+    width: 100vw;
+    height: 80vh;
+  }
+
+  .cover{
+    width: 80%;
+    height: 40%;
+  }
+
+  .cover img{
+    width: 80%;
+    height: 80%;
+  }
+
+  .song-name,
+  .song-singer{
+    font-size:40px ;
+  }
+
+  .song-singer{
+    font-size: 25px;
+  }
+
+  .music-bar{
+    width: 80%;
+    height:20%;
+  }
+
+  .music-bar .time{
+    font-size: 25px;
+  }
+
+  .music-bar .bar{
+    height: 15%;
+  }
+
+  .music-bar .bar:hover{
+    height: 15%;
+  }
+
+  .control{
+    width: 70%;
+    height: 10%;
+  }
+
+  .control i{
+    font-size: 50px;
+  }
+
+  .other{
+    width: 80%;
+    height: 10%;
+  }
+
+  .other i{
+    font-size: 25px;
+  }
+}
+
 .lrc-container {
   position: relative;
   display: flex;
   width: 400px;
-  min-width: 300px;
   height: 500px;
   border-radius: 10px;
   overflow: hidden;
@@ -191,7 +260,6 @@ i:hover {
   opacity: 0;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  justify-content: center;
 }
 
 .lrcContainer-active {
@@ -256,10 +324,54 @@ i:hover {
   -webkit-filter: blur(1px);
 }
 
+.lrc-container i{
+  font-size: 25px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  transition: all .5s;
+}
+
+.lrc-container i:hover{
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 500px){
+  .lrc-container{
+      width: 100vw;
+      height: 90vh;
+      overflow: hidden;
+      transform: translateX(100%);
+      position: absolute;
+  }
+
+  .lrcContainer-active {
+    transform: translateX(0%);
+    opacity:1;
+    z-index: 999;
+  }
+
+  .lrc-container li{
+    font: 500 25px "";
+    margin-top: 30px;
+  }
+
+  .lrc-container .lrc-active{
+    color: #f1eaea;
+    font-size: 30px;
+    font-weight: 800;
+    filter: blur(0);
+    -webkit-filter: blur(0);
+  }
+
+  .lrc-container i{
+    font-size: 40px;
+  }
+}
+
 .list {
   display: flex;
   width: 200px;
-  min-width: 180px;
   height: 500px;
   overflow: hidden;
   border-radius: 10px;
@@ -332,4 +444,48 @@ i:hover {
   font-size: 16px;
   margin-right: 5px;
   transition: all 0.3s;
+}
+
+.list .icon-quxiaoquanping{
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  font-size: 25px;
+  transition: all 0.5s;
+}
+
+.list .icon-quxiaoquanping:hover{
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 500px){
+  .list{
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+    transform: translateX(-100%);
+    position: absolute;
+  }
+
+  .list-active {
+    transform: translateX(0);
+    opacity: 1;
+    z-index: 999;
+  }
+
+  .list  div{
+    font-size: 35px;
+  }
+
+  .list li {
+    font-size: 25px;
+  }
+
+  .list ul i{
+      font-size: 25px;
+  }
+
+  .list .icon-quxiaoquanping{
+    font-size: 40px;
+  }
 }
