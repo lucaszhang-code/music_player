@@ -185,7 +185,7 @@ i:hover {
 @media screen and (max-width: 500px) {
   .container {
     width: 100vw;
-    height: 80vh;
+    height: 90vh;
   }
 
   .cover{
@@ -256,7 +256,7 @@ i:hover {
   /* align-items: center; */
   box-shadow: 0 -10px 10px -5px rgba(0, 0, 0, 0.2),
     0 10px 10px -5px rgba(0, 0, 0, 0.2), 10px 0 10px -5px rgba(0, 0, 0, 0.2);
-  justify-content: right;
+  justify-content: center;
   opacity: 0;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -478,11 +478,12 @@ i:hover {
   }
 
   .list li {
-    font-size: 25px;
+    font-size: 20px;
+    margin-top: 30px;
   }
 
   .list ul i{
-      font-size: 25px;
+      font-size: 20px;
   }
 
   .list .icon-quxiaoquanping{

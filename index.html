@@ -1,76 +1,16 @@
 <!DOCTYPE html>
-<html lang="ch-ZN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/index.css" />
-    <link
-      rel="stylesheet"
-      href="./icon/font_4254214_dz66hkfkxg9/iconfont.css"
-    />
-  </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 获取当前时间作为时间戳
+    let timestamp = new Date().getTime();
 
-  <body>
-    <audio
-      src="./assets/ナナツカゼ,PIKASONIC,なこたんまる - 春めく.mp3"
-    ></audio>
-
-    <div class="list">
-      <i class="iconfont icon-quxiaoquanping" id="list-close"></i>
-      <div>歌曲列表</div>
-      <ul></ul>
-    </div>
-
-    <div class="container">
-      <!-- 专辑封面 -->
-      <div class="cover">
-        <img src="./image/春めく.jpg" alt="" />
-      </div>
-      <!-- 歌曲信息 -->
-      <div class="song-name">春めく</div>
-      <div class="song-singer">ナナツカゼ / PIKASONIC</div>
-      <!-- 进度条 -->
-      <div class="music-bar">
-        <div class="time">
-          <div class="now-time">00:00</div>
-          <div class="end-time">00:00</div>
-        </div>
-        <div class="bar">
-          <div class="bar-control">
-            <div class="bar-now"></div>
-          </div>
-        </div>
-      </div>
-      <!-- 控制组件 -->
-      <div class="control">
-        <i class="iconfont icon-shangyishou" id="shangyishou"></i>
-        <i class="iconfont icon-bofang" id="playButton"></i>
-        <i class="iconfont icon-xiayishou" id="xiayishou"></i>
-      </div>
-      <!-- 歌词、播放列表等组件 -->
-      <div class="other">
-        <i class="iconfont icon-liebiao"></i>
-        <span class="volume"><i class="iconfont icon-shengyin_shiti"></i></span>
-        <span class="songModel">
-          <i class="iconfont icon-shunxubofang"></i>
-        </span>
-        <i class="iconfont icon-geci"></i>
-      </div>
-    </div>
-
-    <div class="lrc-container">
-      <div class="content">
-        <ul></ul>
-      </div>
-      <i class="iconfont icon-quxiaoquanping" id="close-lrc"></i>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.min.js"></script>
-    <script src="./js/lrc-data.js"></script>
-    <script src="./js/song-data.js"></script>
-    <script src="./js/backgroundColor.js"></script>
-    <script src="./js/index-lrc.js"></script>
-    <script src="./js/index.js"></script>
-    <script src="./js/list.js"></script>
-  </body>
+    // 将时间戳添加到 URL 作为查询参数
+    location.href = 'player.html?_=' + timestamp;
+</script>
+</body>
 </html>
