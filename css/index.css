@@ -209,7 +209,7 @@ i:hover {
 
   .music-bar{
     width: 80%;
-    height:20%;
+    height:10%;
   }
 
   .music-bar .time{
@@ -217,7 +217,7 @@ i:hover {
   }
 
   .music-bar .bar{
-    height: 15%;
+    height: 30%;
   }
 
   .music-bar .bar:hover{
