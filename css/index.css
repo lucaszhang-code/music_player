@@ -400,8 +400,8 @@ i:hover {
 
 .list ul {
   transition: all 0.3s;
-  width: 85%;
   overflow-y: hidden;
+  width: 100%;
 }
 
 .list ul:hover {
@@ -469,6 +469,7 @@ i:hover {
   height: 80%;
   border-radius: 5px;
   margin-right: 10px;
+  margin-left: 20px;
 }
 
 .list .icon-quxiaoquanping{
@@ -503,6 +504,7 @@ i:hover {
   }
 
   .list li {
+    width: 100vw;
     height: 80px;
     font-size: 20px;
     margin-top: 10px;
@@ -514,6 +516,11 @@ i:hover {
 
   .list ul i{
       font-size: 30px;
+  }
+
+  .list li span:nth-child(2){
+    position: relative;
+   right: 10px;
   }
 
   .list .icon-quxiaoquanping{
