@@ -399,6 +399,7 @@ i:hover {
 }
 
 .list ul {
+  position: relative;
   transition: all 0.3s;
   overflow-y: hidden;
   width: 100%;
@@ -504,7 +505,7 @@ i:hover {
   }
 
   .list li {
-    width: 100vw;
+    width: 100%;
     height: 80px;
     font-size: 20px;
     margin-top: 10px;
@@ -520,7 +521,7 @@ i:hover {
 
   .list li span:nth-child(2){
     position: relative;
-   right: 10px;
+    right: 10px;
   }
 
   .list .icon-quxiaoquanping{

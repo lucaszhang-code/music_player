@@ -5,7 +5,7 @@ const listLi = songData
   .map((item, index) => {
     return `
     <li>
-      <span><img src="${songData[index].cover}"></img><div><div>${filesName(index)}</div><div>${filesSinger(index)}</div></div></span>
+      <span><img src="${songData[index].cover}" /><div><div>${filesName(index)}</div><div>${filesSinger(index)}</div></div></span>
        <span><i data-id="${index}" class="iconfont icon-bofang"></i></span>
       </li>
     `;
