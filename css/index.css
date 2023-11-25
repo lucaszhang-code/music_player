@@ -13,6 +13,7 @@ body {
   backdrop-filter: blur(100px);
   -webkit-backdrop-filter: blur(100px);
   transition: all 0.5s;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 500px){
@@ -22,6 +23,8 @@ body {
     width: 100vw;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    max-width: 100%;
   }
 }
 
@@ -185,7 +188,7 @@ i:hover {
 @media screen and (max-width: 500px) {
   .container {
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
   }
 
   .cover{
@@ -221,7 +224,7 @@ i:hover {
   }
 
   .music-bar .bar:hover{
-    height: 15%;
+    height: 40%;
   }
 
   .control{
@@ -339,7 +342,7 @@ i:hover {
 @media screen and (max-width: 500px){
   .lrc-container{
       width: 100vw;
-      height: 90vh;
+      height: 100vh;
       overflow: hidden;
       transform: translateX(100%);
       position: absolute;
@@ -461,7 +464,7 @@ i:hover {
 @media screen and (max-width: 500px){
   .list{
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     overflow: hidden;
     transform: translateX(-100%);
     position: absolute;

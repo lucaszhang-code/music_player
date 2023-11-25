@@ -51,3 +51,8 @@ list.addEventListener("click", (e) => {
     songIndex = id;
   }
 });
+
+list.addEventListener('touchmove', function(event) {
+  event.stopPropagation();
+}, false);
+
