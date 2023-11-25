@@ -23,8 +23,7 @@ body {
     width: 100vw;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-    max-width: 100%;
+    position: fixed;
   }
 }
 
@@ -189,6 +188,9 @@ i:hover {
   .container {
     width: 100vw;
     height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
   }
 
   .cover{
@@ -423,30 +425,50 @@ i:hover {
 
 .list li {
   display: flex;
-  margin-top: 20px;
-  border-bottom: 1px solid black;
+  margin-top: 10px;
   justify-content: space-between;
   font: 12px "";
-  padding-bottom: 2px;
+  height: 50px;
+}
+
+.list li:hover{
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 5px;
 }
 
 .list li span {
   display: flex;
-  align-items: end;
+  align-items: center;
 }
 
-.list div {
+
+.list li span div{
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 80px;
+}
+
+.list .list-title {
   position: relative;
   margin-top: 20px;
   text-align: center;
   font: 20px "";
   border-bottom: none;
+  margin-bottom: 10px;
 }
 
 .list ul i {
   font-size: 16px;
   margin-right: 5px;
   transition: all 0.3s;
+}
+
+.list img{
+  height: 80%;
+  border-radius: 5px;
+  margin-right: 10px;
 }
 
 .list .icon-quxiaoquanping{
@@ -476,17 +498,22 @@ i:hover {
     z-index: 999;
   }
 
-  .list  div{
+  .list  .list-title{
     font-size: 35px;
   }
 
   .list li {
+    height: 80px;
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: 10px;
+  }
+
+  .list li span div{
+    width: 200px;
   }
 
   .list ul i{
-      font-size: 20px;
+      font-size: 30px;
   }
 
   .list .icon-quxiaoquanping{

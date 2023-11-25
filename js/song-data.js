@@ -53,7 +53,11 @@ const songData = [
 {
   url: './assets/HOYO MiX - 轻涟 La vaguelette .mp3',
   cover:'./image/轻涟 La vaguelette.jpg'
-}
+},
+  {
+    url:'/assets/HoneyComeBear - 十夏の花.mp3',
+    cover:'./image/十夏の花.jpg'
+  }
 ];
 
 //读取文件的歌曲名称
