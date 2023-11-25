@@ -12,6 +12,16 @@
       rel="stylesheet"
       href="./icon/font_4254214_dz66hkfkxg9/iconfont.css"
     />
+    <script>
+      (function() {
+        if (!sessionStorage.getItem('forceRefresh')) {
+          sessionStorage.setItem('forceRefresh', 'true');
+          window.location.reload(true);
+        } else {
+          sessionStorage.removeItem('forceRefresh');
+        }
+      })();
+    </script>
   </head>
 
   <body>

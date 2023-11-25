@@ -1,3 +1,4 @@
+
 function initializeBackgroundColorUpdater() {
   const img = document.querySelector(".cover img");
   function updateColorsAndStyles() {
