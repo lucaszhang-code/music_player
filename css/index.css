@@ -5,6 +5,11 @@
   text-decoration: none;
 }
 
+@font-face {
+  font-family: 'alimama';
+  src: url("../font-family/AlimamaFangYuanTiVF-Thin.ttf");
+}
+
 body {
   height: 100vh;
   display: flex;
@@ -82,11 +87,11 @@ i:hover {
 .song-singer {
   width: 100%;
   text-align: center;
-  font: 800 25px "";
+  font: 800 25px "alimama";
 }
 
 .song-singer {
-  font: 500 16px "";
+  font: 500 16px "alimama";
 }
 
 .music-bar {
@@ -145,7 +150,7 @@ i:hover {
 }
 
 .control i {
-  font: 35px "";
+  font: 35px "alimama";
 }
 
 .other {
@@ -217,7 +222,7 @@ i:hover {
   }
 
   .music-bar .time{
-    font-size: 25px;
+    font: 25px 'alimama';
   }
 
   .music-bar .bar{
@@ -297,14 +302,14 @@ i:hover {
   transition: 0.5s all;
 }
 
-.lrc-container li {
+.lrc-container  li {
   display: flex;
   width: 100%;
   position: relative;
   height: auto;
   line-height: inherit;
   margin-top: 20px;
-  font: 500 18px "";
+  font: 500 18px "alimama";
   color: #666666;
   transition: 0.5s all;
   overflow-wrap: break-word;
@@ -317,7 +322,7 @@ i:hover {
 
 .lrc-container .lrc-active {
   color: #f1eaea;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 800;
   filter: blur(0);
   -webkit-filter: blur(0);
@@ -356,13 +361,13 @@ i:hover {
   }
 
   .lrc-container li{
-    font: 500 25px "";
+    font: 500 25px "alimama";
     margin-top: 30px;
   }
 
   .lrc-container .lrc-active{
     color: #f1eaea;
-    font-size: 30px;
+    font: 25px 'alimama';
     font-weight: 800;
     filter: blur(0);
     -webkit-filter: blur(0);
@@ -427,7 +432,7 @@ i:hover {
   display: flex;
   margin-top: 10px;
   justify-content: space-between;
-  font: 12px "";
+  font: 12px "alimama";
   height: 50px;
 }
 
@@ -445,6 +450,9 @@ i:hover {
   width: 80%;
 }
 
+.list .filename{
+  font-weight: 800;
+}
 
 .list li span div{
   display: block;
@@ -457,7 +465,7 @@ i:hover {
   position: relative;
   margin-top: 20px;
   text-align: center;
-  font: 20px "";
+  font: 20px "alimama";
   border-bottom: none;
   margin-bottom: 10px;
 }
