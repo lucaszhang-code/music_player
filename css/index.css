@@ -67,7 +67,7 @@ i:hover {
   border-radius: 10px;
   justify-content: center;
   align-items: center;
-  transition: all 0.3s;
+  transition: ease-in-out 0.3s;
 }
 
 .cover img {
@@ -75,7 +75,7 @@ i:hover {
   height: 85%;
   border-radius: 10px;
   transition: all 0.5s;
-  box-shadow: 0px 0px 5px 5px rgb(0, 0, 0, 0.4);
+  box-shadow: 0 0 5px 5px rgb(0, 0, 0, 0.4);
 }
 
 .cover .cover-active {
@@ -137,7 +137,7 @@ i:hover {
   /* background-color: skyblue; */
   background: linear-gradient(to right, rgb(228, 226, 226), skyblue);
   border-radius: 5px;
-  transition: all 0.3s;
+  transition: ease-in-out 0.3s;
 }
 
 .control {
@@ -260,7 +260,7 @@ i:hover {
   border-radius: 10px;
   overflow: hidden;
   z-index: 1;
-  transition: 0.5s ease;
+  transition: 0.5s ease-in-out;
   transform: translateX(-100%);
   /* align-items: center; */
   box-shadow: 0 -10px 10px -5px rgba(0, 0, 0, 0.2),
@@ -362,7 +362,7 @@ i:hover {
 
   .lrc-container ul {
     width: 100%;
-    transition: 0.5s ease-in-out;
+    transition: 0.5s ease-out;
   }
 
   .lrc-container li{
@@ -390,7 +390,7 @@ i:hover {
   border-radius: 10px;
   z-index: 2;
   transform: translateX(100%);
-  transition: all 0.5s;
+  transition: ease-in-out 0.5s;
   box-shadow: 0 -10px 10px -5px rgba(0, 0, 0, 0.2),
     /* 上方阴影 */ 0 10px 10px -5px rgba(0, 0, 0, 0.2),
     /* 下方阴影 */ -10px 0 10px -5px rgba(0, 0, 0, 0.2); /* 右侧阴影 */
