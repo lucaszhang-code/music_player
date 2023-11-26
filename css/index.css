@@ -315,8 +315,8 @@ i:hover {
   overflow-wrap: break-word;
   white-space: normal;
   justify-content: left;
-  filter: blur(2px);
-  -webkit-filter: blur(2px);
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
   margin-left: 1px;
 }
 
@@ -329,8 +329,8 @@ i:hover {
 }
 
 .lrc-container .lrc-active2 {
-  filter: blur(1px);
-  -webkit-filter: blur(1px);
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
 }
 
 .lrc-container i{
@@ -361,14 +361,13 @@ i:hover {
   }
 
   .lrc-container li{
-    font: 500 25px "alimama";
+    font: 800 25px "";
     margin-top: 30px;
   }
 
   .lrc-container .lrc-active{
     color: #f1eaea;
-    font: 25px 'alimama';
-    font-weight: 800;
+    font:800 25px '';
     filter: blur(0);
     -webkit-filter: blur(0);
   }
