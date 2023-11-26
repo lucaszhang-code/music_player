@@ -5,58 +5,73 @@ const songData = [
   {
     url: "./assets/李玖哲 - 夏天.mp3",
     cover: "./image/夏天-李玖哲.jpg",
+    coverMini:'./image-mini/夏天-李玖哲.jpg'
   },
   {
     url: "./assets/ナナツカゼ,PIKASONIC,なこたんまる - 春めく.mp3",
     cover: "./image/春めく.jpg",
+    coverMini: './image-mini/春めく.jpg'
   },
   {
     url: "./assets/HOYOMiX - Da Capo.mp3",
     cover: "./image/Da Capo.jpg",
+    coverMini: './image-mini/Da Capo.jpg'
   },
   {
     url: "./assets/任然 - 飞鸟和蝉 .mp3",
     cover: "./image/飞鸟和蝉.jpg",
+    coverMini: './image-mini/飞鸟和蝉.jpg'
   },
   {
     url: "./assets/FIFTY FIFTY - Cupid.mp3",
     cover: "./image/Cupid.jpg",
+    coverMini: './image-mini/Cupid.jpg'
   },
   {
     url: "./assets/Sereno - 마지막 세계의 왈츠.mp3",
     cover: "./image/마지막 세계의 왈츠.jpg",
+    coverMini: './image-mini/마지막 세계의 왈츠.jpg'
   },
   {
     url: "./assets/YOASOBI - アイドル.mp3",
     cover: "./image/アイドル.jpg",
+    coverMini: './image-mini/アイドル.jpg'
   },
   {
     url: "./assets/花玲,张安琪,沐霏 - 我不曾忘记.mp3",
     cover: "./image/我不曾忘记.jpg",
+    coverMini: './image-mini/我不曾忘记.jpg'
+
   },
   {
     url: "./assets/YOASOBI - 祝福.mp3",
     cover: "./image/祝福.jpg",
+    coverMini: './image-mini/祝福.jpg'
   },
   {
     url: "./assets/Islet,倚水 - 星になる (feat. 倚水).mp3",
     cover: "./image/星になる (feat. 倚水) .jpg",
+    coverMini: './image-mini/星になる (feat. 倚水) .jpg'
   },
   {
     url: "./assets/Islet,倚水 - 春を待つ (feat. 倚水).mp3",
     cover: "./image/春を待つ(feat. 倚水).jpg",
+    coverMini: './image-mini/春を待つ(feat. 倚水).jpg'
   },
   {
     url: './assets/花鋏キョウ - Starry.mp3',
-    cover:'./image/starry.jpg'
+    cover:'./image/starry.jpg',
+    coverMini: './image-mini/starry.jpg'
   },
 {
   url: './assets/HOYO MiX - 轻涟 La vaguelette .mp3',
-  cover:'./image/轻涟 La vaguelette.jpg'
+  cover:'./image/轻涟 La vaguelette.jpg',
+  coverMini: './image-mini/轻涟 La vaguelette.jpg'
 },
   {
     url:'./assets/HoneyComeBear - 十夏の花.mp3',
-    cover:'./image/十夏の花.jpg'
+    cover:'./image/十夏の花.jpg',
+    coverMini: './image-mini/十夏の花.jpg'
   }
 ];
 
