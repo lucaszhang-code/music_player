@@ -360,6 +360,11 @@ i:hover {
     z-index: 999;
   }
 
+  .lrc-container ul {
+    width: 100%;
+    transition: 0.5s ease-in-out;
+  }
+
   .lrc-container li{
     font: 800 25px "";
     margin-top: 30px;
