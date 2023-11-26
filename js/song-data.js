@@ -55,7 +55,7 @@ const songData = [
   cover:'./image/轻涟 La vaguelette.jpg'
 },
   {
-    url:'/assets/HoneyComeBear - 十夏の花.mp3',
+    url:'./assets/HoneyComeBear - 十夏の花.mp3',
     cover:'./image/十夏の花.jpg'
   }
 ];
