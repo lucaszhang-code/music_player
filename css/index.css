@@ -23,6 +23,7 @@ body {
     width: 100vw;
     justify-content: center;
     align-items: center;
+    position: fixed;
   }
 }
 
@@ -501,6 +502,10 @@ i:hover {
 
   .list  .list-title{
     font-size: 35px;
+  }
+
+  .list ul{
+    width: 100%;
   }
 
   .list li {
