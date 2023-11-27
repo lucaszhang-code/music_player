@@ -15,22 +15,10 @@
       rel="stylesheet"
       href="./icon/font_4254214_dz66hkfkxg9/iconfont.css"
     />
-    <script>
-      (function () {
-        if (!sessionStorage.getItem("forceRefresh")) {
-          sessionStorage.setItem("forceRefresh", "true");
-          window.location.reload(true);
-        } else {
-          sessionStorage.removeItem("forceRefresh");
-        }
-      })();
-    </script>
   </head>
 
   <body>
-    <audio
-      src="./assets/李玖哲 - 夏天.mp3"
-    ></audio>
+    <audio src="./assets/李玖哲 - 夏天.mp3"></audio>
 
     <div class="list">
       <i class="iconfont icon-quxiaoquanping" id="list-close"></i>
@@ -81,6 +69,25 @@
       </div>
       <i class="iconfont icon-quxiaoquanping" id="close-lrc"></i>
     </div>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("/sw.js").then(
+            function (registration) {
+              // 注册成功
+              console.log(
+                "ServiceWorker registration successful with scope: ",
+                registration.scope
+              );
+            },
+            function (err) {
+              // 注册失败
+              console.log("ServiceWorker registration failed: ", err);
+            }
+          );
+        });
+      }
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.min.js"></script>
     <script src="./js/lrc-data.js"></script>
     <script src="./js/song-data.js"></script>
