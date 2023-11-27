@@ -5,79 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87930848-9c2c-4334-b5f4-f44f5f0db969" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/音乐播放器.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/FIFTY FIFTY - Cupid.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/HOYO MiX - 轻涟 La vaguelette .mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/HOYOMiX - Da Capo.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/HoneyComeBear - 十夏の花.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Islet,倚水 - 星になる (feat. 倚水).mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Islet,倚水 - 春を待つ (feat. 倚水).mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Sereno - 마지막 세계의 왈츠.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/YOASOBI - アイドル.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/YOASOBI - 祝福.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/ナナツカゼ,PIKASONIC,なこたんまる - 春めく.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/任然 - 飞鸟和蝉 .mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/李玖哲 - 夏天.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/花玲,张安琪,沐霏 - 我不曾忘记.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/花鋏キョウ - Starry.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/AlimamaFangYuanTiVF-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/demo_index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/font_4254214_dz66hkfkxg9/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/font_4254214_dz66hkfkxg9/demo_index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/font_4254214_dz66hkfkxg9/iconfont.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/font_4254214_dz66hkfkxg9/iconfont.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/font_4254214_dz66hkfkxg9/iconfont.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/font_4254214_dz66hkfkxg9/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/font_4254214_dz66hkfkxg9/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/font_4254214_dz66hkfkxg9/iconfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/iconfont.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/iconfont.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/iconfont.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/iconfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-mini/Cupid.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-mini/Da Capo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-mini/starry.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-mini/アイドル.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-mini/十夏の花.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-mini/夏天-李玖哲.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-mini/我不曾忘记.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-mini/星になる (feat. 倚水) .jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-mini/春めく.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-mini/春を待つ(feat. 倚水).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-mini/祝福.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-mini/轻涟 La vaguelette.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-mini/飞鸟和蝉.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image-mini/마지막 세계의 왈츠.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/Cupid.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/Da Capo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/starry.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/アイドル.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/十夏の花.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/夏天-李玖哲.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/我不曾忘记.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/星になる (feat. 倚水) .jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/春めく.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/春を待つ(feat. 倚水).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/祝福.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/轻涟 La vaguelette.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/飞鸟和蝉.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/마지막 세계의 왈츠.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/backgroundColor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/color-thief.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index-lrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lrc-data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/song-data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/player.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,6 +95,7 @@
       <workItem from="1701074515331" duration="2302000" />
       <workItem from="1701076852391" duration="1111000" />
       <workItem from="1701077984128" duration="572000" />
+      <workItem from="1701094702919" duration="959000" />
     </task>
     <servers />
   </component>

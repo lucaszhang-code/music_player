@@ -321,7 +321,7 @@ i:hover {
 }
 
 .lrc-container .lrc-active {
-  color: #f1eaea;
+  color: white;
   font: 800 18px "alimama";
   filter: blur(0);
   -webkit-filter: blur(0);
@@ -366,12 +366,15 @@ i:hover {
 
   .lrc-container li {
     font: 500 25px "";
+    font-weight: normal;
     margin-top: 30px;
+    width: 100%;
   }
 
   .lrc-container .lrc-active {
-    color: #f1eaea;
+    color: white;
     font: 800 25px "";
+    font-weight: bold;
     filter: blur(0);
     -webkit-filter: blur(0);
   }
