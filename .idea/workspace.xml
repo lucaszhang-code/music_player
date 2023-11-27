@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="87930848-9c2c-4334-b5f4-f44f5f0db969" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/音乐播放器.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/FIFTY FIFTY - Cupid.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/HOYO MiX - 轻涟 La vaguelette .mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/HOYOMiX - Da Capo.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/HoneyComeBear - 十夏の花.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Islet,倚水 - 星になる (feat. 倚水).mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Islet,倚水 - 春を待つ (feat. 倚水).mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Sereno - 마지막 세계의 왈츠.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/YOASOBI - アイドル.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/YOASOBI - 祝福.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ナナツカゼ,PIKASONIC,なこたんまる - 春めく.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/任然 - 飞鸟和蝉 .mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/李玖哲 - 夏天.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/花玲,张安琪,沐霏 - 我不曾忘记.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/花鋏キョウ - Starry.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font-family/AlimamaFangYuanTiVF-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/demo_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/font_4254214_dz66hkfkxg9/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/font_4254214_dz66hkfkxg9/demo_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/font_4254214_dz66hkfkxg9/iconfont.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/font_4254214_dz66hkfkxg9/iconfont.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/font_4254214_dz66hkfkxg9/iconfont.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/font_4254214_dz66hkfkxg9/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/font_4254214_dz66hkfkxg9/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/font_4254214_dz66hkfkxg9/iconfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/iconfont.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/iconfont.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/iconfont.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/iconfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-mini/Cupid.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-mini/Da Capo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-mini/starry.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-mini/アイドル.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-mini/十夏の花.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-mini/夏天-李玖哲.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-mini/我不曾忘记.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-mini/星になる (feat. 倚水) .jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-mini/春めく.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-mini/春を待つ(feat. 倚水).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-mini/祝福.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-mini/轻涟 La vaguelette.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-mini/飞鸟和蝉.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-mini/마지막 세계의 왈츠.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Cupid.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Da Capo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/starry.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/アイドル.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/十夏の花.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/夏天-李玖哲.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/我不曾忘记.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/星になる (feat. 倚水) .jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/春めく.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/春を待つ(feat. 倚水).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/祝福.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/轻涟 La vaguelette.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/飞鸟和蝉.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/마지막 세계의 왈츠.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/backgroundColor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/color-thief.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index-lrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/lrc-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/song-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/player.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/css/index.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/js/index.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/js/lrc-data.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/js/song-data.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/player.html" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2XycjXmtwwUDWmu4PkXfOYtNkJi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lucas/Desktop/工作/HTML学习/音乐播放器&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="87930848-9c2c-4334-b5f4-f44f5f0db969" name="更改" comment="" />
+      <created>1699604896009</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699604896009</updated>
+      <workItem from="1699604897151" duration="408000" />
+      <workItem from="1699687447836" duration="589000" />
+      <workItem from="1699772357059" duration="809000" />
+      <workItem from="1699871877606" duration="2965000" />
+      <workItem from="1700134168170" duration="1148000" />
+      <workItem from="1700139510547" duration="708000" />
+      <workItem from="1700142668774" duration="119000" />
+      <workItem from="1700149965277" duration="19000" />
+      <workItem from="1700218353076" duration="137000" />
+      <workItem from="1700222721585" duration="1152000" />
+      <workItem from="1700824815656" duration="5664000" />
+      <workItem from="1700832153914" duration="4483000" />
+      <workItem from="1700836701272" duration="4240000" />
+      <workItem from="1700841987977" duration="5896000" />
+      <workItem from="1700923003920" duration="6723000" />
+      <workItem from="1700985194583" duration="4247000" />
+      <workItem from="1700998632208" duration="1355000" />
+      <workItem from="1701003599154" duration="2573000" />
+      <workItem from="1701007453489" duration="67000" />
+      <workItem from="1701011666742" duration="57000" />
+      <workItem from="1701011736887" duration="96000" />
+      <workItem from="1701011930836" duration="56000" />
+      <workItem from="1701011997164" duration="1388000" />
+      <workItem from="1701074515331" duration="2302000" />
+      <workItem from="1701076852391" duration="1111000" />
+      <workItem from="1701077984128" duration="572000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

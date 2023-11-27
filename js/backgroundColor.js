@@ -1,4 +1,3 @@
-
 function initializeBackgroundColorUpdater() {
   const img = document.querySelector(".cover img");
   function updateColorsAndStyles() {
@@ -24,17 +23,23 @@ function setColorsFromImage(img) {
   const textColor = getTextColorBasedOnBgColor(dominantColor);
 
   if (dominantColor && textColor) {
-    document.body.style.backgroundColor = rgbToString(dominantColor);
-    document.body.style.color = rgbToString(textColor);
-    document.querySelector('.lrc-container').style.backgroundColor=rgbToString(dominantColor);
-    document.querySelector('.list').style.backgroundColor=rgbToString(dominantColor);
+    const rgbDominantColor = rgbToString(dominantColor);
+    const rgbTextColor = rgbToString(textColor);
     const listItems = document.querySelectorAll(".list ul li");
-    for (let li of listItems) {
-      li.style.borderColor = rgbToString(textColor);
-    }
     const icons = document.querySelectorAll(".icon-geci, .icon-liebiao");
+
+    document.body.style.backgroundColor = rgbDominantColor;
+    document.body.style.color = rgbTextColor;
+    document.querySelector(".lrc-container").style.backgroundColor =
+      rgbDominantColor;
+    document.querySelector(".list").style.backgroundColor = rgbDominantColor;
+
+    for (let li of listItems) {
+      li.style.borderColor = rgbTextColor;
+    }
+
     for (let icon of icons) {
-      icon.style.color = rgbToString(textColor);
+      icon.style.color = rgbTextColor;
     }
   }
 }
@@ -60,7 +65,7 @@ function getDominantColorFromImage(img) {
     const colorThief = new ColorThief();
     return colorThief.getColor(img);
   } catch (e) {
-    console.error("Failed to get dominant color:", e);
+    // console.error("Failed to get dominant color:", e);
     return null;
   }
 }

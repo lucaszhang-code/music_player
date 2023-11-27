@@ -1,5 +1,11 @@
 const changeLrc = (i) => {
-  document.querySelector(".lrc-container ul").innerHTML = "";
+  const dom = {
+    audio: document.querySelector("audio"),
+    ul: document.querySelector(".lrc-container ul"),
+    container: document.querySelector(".lrc-container"),
+  };
+
+  dom.ul.innerHTML = "";
 
   const paraseTime = (timeStr) => {
     const parts = timeStr.split(":");
@@ -33,12 +39,6 @@ const changeLrc = (i) => {
 
   const lrcData = paraseLrc();
 
-  const dom = {
-    audio: document.querySelector("audio"),
-    ul: document.querySelector(".lrc-container ul"),
-    container: document.querySelector(".lrc-container"),
-  };
-
   const findIndex = () => {
     const currentTime = dom.audio.currentTime;
     for (let i = 0; i < lrcData.length; i++) {
@@ -61,7 +61,7 @@ const changeLrc = (i) => {
 
   let containerHeight = dom.container.clientHeight;
 
-  const liHeightAll = document.querySelectorAll(".lrc-container ul li");
+  const liHeightAll = dom.ul.querySelectorAll("li");
 
   let liHeights = [];
   let cumulativeHeights = [0]; // 累计高度的数组
@@ -75,22 +75,24 @@ const changeLrc = (i) => {
 
   let maxOffSet = dom.ul.clientHeight - containerHeight;
 
-const lrcContainerMarginTop=document.querySelector('.lrc-container li')
-const computedStyle = window.getComputedStyle(lrcContainerMarginTop);
-const marginTop = computedStyle.marginTop;
-const marginTopValue=marginTop.split('px')
-
+  const lrcContainerMarginTop = dom.ul.querySelector("li");
+  const computedStyle = window.getComputedStyle(lrcContainerMarginTop);
+  const marginTop = computedStyle.marginTop;
+  const marginTopValue = marginTop.split("px");
   const setOffset = () => {
     let index = findIndex();
     let liHeight = cumulativeHeights[index];
     let offset =
-      liHeight + liHeights[index] / 2 + (index + 6) * marginTopValue[0] - containerHeight / 2;
+      liHeight +
+      liHeights[index] / 2 +
+      (index + 6) * marginTopValue[0] -
+      containerHeight / 2;
 
     if (offset < 0) offset = 0;
     // else if (offset > maxOffSet) offset = maxOffSet;
     dom.ul.style.transform = `translateY(-${offset}px)`;
 
-    let li = dom.ul.querySelector(".lrc-container .lrc-active");
+    let li = dom.ul.querySelector(".lrc-active");
     if (li) {
       li.classList.remove("lrc-active");
       li.style.color = defaultLyricColor; // 恢复默认颜色

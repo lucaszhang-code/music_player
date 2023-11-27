@@ -2,8 +2,11 @@
 <html lang="ch-ZN">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
     <title>音乐播放器</title>
@@ -13,12 +16,12 @@
       href="./icon/font_4254214_dz66hkfkxg9/iconfont.css"
     />
     <script>
-      (function() {
-        if (!sessionStorage.getItem('forceRefresh')) {
-          sessionStorage.setItem('forceRefresh', 'true');
+      (function () {
+        if (!sessionStorage.getItem("forceRefresh")) {
+          sessionStorage.setItem("forceRefresh", "true");
           window.location.reload(true);
         } else {
-          sessionStorage.removeItem('forceRefresh');
+          sessionStorage.removeItem("forceRefresh");
         }
       })();
     </script>
