@@ -1,6 +1,3 @@
-// 强制刷新页面
-location.reload(true);
-
 const audio = document.querySelector("audio");
 const playButton = document.querySelector("#playButton");
 const coverImg = document.querySelector(".container .cover img");
@@ -123,8 +120,6 @@ lrcBtn.addEventListener("click", () => {
 
 //点击coverimg也能回到主页面
 coverImg.addEventListener("click", removeLrcContainer);
-
-document.querySelector("body").addEventListener("touchmove", touchMoveHandler);
 
 //点击歌曲列表展开歌曲列表
 const list = document.querySelector(".list");
