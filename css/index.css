@@ -262,17 +262,17 @@ i:hover {
   }
 
   .songinfo-active {
-    transform: translateX(5%);
+    transform: translateX(10%);
   }
 
   .song-name,
   .song-singer {
     position: relative;
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .song-singer {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .container-control {
@@ -586,7 +586,7 @@ i:hover {
   }
 
   .list .list-title {
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .list ul {
