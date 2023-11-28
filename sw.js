@@ -1,6 +1,6 @@
 // 定义要缓存的文件列表
-var CACHE_NAME = "my-site-cache-v1";
-var urlsToCache = [
+const CACHE_NAME = "my-site-cache-v1";
+const urlsToCache = [
   "./assets/李玖哲 - 夏天.mp3",
   "./image/夏天-李玖哲.jpg",
   "./image-mini/夏天-李玖哲.jpg",
