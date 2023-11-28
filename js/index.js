@@ -1,4 +1,8 @@
 // 强制刷新页面
+// 强制刷新页面
+function forceReload() {
+  window.location.reload(true);
+}
 
 const audio = document.querySelector("audio");
 const playButton = document.querySelector("#playButton");
