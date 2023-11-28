@@ -27,39 +27,46 @@
     </div>
 
     <div class="container">
-      <!-- 专辑封面 -->
-      <div class="cover">
-        <img src="./image/夏天-李玖哲.jpg" alt="" />
-      </div>
-      <!-- 歌曲信息 -->
-      <div class="song-name">夏天</div>
-      <div class="song-singer">李玖哲</div>
-      <!-- 进度条 -->
-      <div class="music-bar">
-        <div class="time">
-          <div class="now-time">00:00</div>
-          <div class="end-time">00:00</div>
+      <div class="container-info">
+        <!-- 专辑封面 -->
+        <div class="cover">
+          <img src="./image/夏天-李玖哲.jpg" alt="" />
         </div>
-        <div class="bar">
-          <div class="bar-control">
-            <div class="bar-now"></div>
+        <!-- 歌曲信息 -->
+        <div class="song-name">夏天</div>
+        <div class="song-singer">李玖哲</div>
+      </div>
+      <!-- 全部控制组件的部分 -->
+      <div class="container-control">
+        <!-- 进度条 -->
+        <div class="music-bar">
+          <div class="time">
+            <div class="now-time">00:00</div>
+            <div class="end-time">00:00</div>
+          </div>
+          <div class="bar">
+            <div class="bar-control">
+              <div class="bar-now"></div>
+            </div>
           </div>
         </div>
-      </div>
-      <!-- 控制组件 -->
-      <div class="control">
-        <i class="iconfont icon-shangyishou" id="shangyishou"></i>
-        <i class="iconfont icon-bofang" id="playButton"></i>
-        <i class="iconfont icon-xiayishou" id="xiayishou"></i>
-      </div>
-      <!-- 歌词、播放列表等组件 -->
-      <div class="other">
-        <i class="iconfont icon-liebiao"></i>
-        <span class="volume"><i class="iconfont icon-shengyin_shiti"></i></span>
-        <span class="songModel">
-          <i class="iconfont icon-shunxubofang"></i>
-        </span>
-        <i class="iconfont icon-geci"></i>
+        <!-- 控制组件 -->
+        <div class="control">
+          <i class="iconfont icon-shangyishou" id="shangyishou"></i>
+          <i class="iconfont icon-bofang" id="playButton"></i>
+          <i class="iconfont icon-xiayishou" id="xiayishou"></i>
+        </div>
+        <!-- 歌词、播放列表等组件 -->
+        <div class="other">
+          <i class="iconfont icon-liebiao"></i>
+          <span class="volume"
+            ><i class="iconfont icon-shengyin_shiti"></i
+          ></span>
+          <span class="songModel">
+            <i class="iconfont icon-shunxubofang"></i>
+          </span>
+          <i class="iconfont icon-geci"></i>
+        </div>
       </div>
     </div>
 
@@ -67,7 +74,6 @@
       <div class="content">
         <ul></ul>
       </div>
-      <i class="iconfont icon-quxiaoquanping" id="close-lrc"></i>
     </div>
     <script>
       if ("serviceWorker" in navigator) {
@@ -89,7 +95,7 @@
       }
     </script>
     <script>
-      alert('首次加载速度可能比较慢，请耐心等待')
+      // alert('首次加载速度可能比较慢，请耐心等待')
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.min.js"></script>
     <script src="./js/lrc-data.js"></script>

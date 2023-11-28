@@ -89,23 +89,22 @@ const lrcBtn = document.querySelector(".container .icon-geci");
 const lrcContainer = document.querySelector(".lrc-container");
 const lrcWidth = lrcContainer.clientWidth;
 const container = document.querySelector(".container");
+const containerInfo = document.querySelector(".container-info");
 
 lrcBtn.addEventListener("click", () => {
   if (!document.querySelector(".container .lrcBtn-active")) {
     lrcBtn.classList.add("lrcBtn-active");
     lrcContainer.classList.add("lrcContainer-active");
+    //移动端页面
+    containerInfo.classList.add("info-active");
   } else {
     lrcBtn.classList.remove("lrcBtn-active");
     lrcContainer.classList.remove("lrcContainer-active");
+    containerInfo.classList.remove("info-active");
   }
 });
 
-//点击歌词关闭图标关闭歌词界面
-const closeLrcBtn = document.querySelector("#close-lrc");
-closeLrcBtn.addEventListener("click", () => {
-  lrcBtn.classList.remove("lrcBtn-active");
-  lrcContainer.classList.remove("lrcContainer-active");
-});
+lrcContainer.addEventListener("focus", () => {});
 
 //点击歌曲列表展开歌曲列表
 const list = document.querySelector(".list");

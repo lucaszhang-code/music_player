@@ -33,6 +33,8 @@ function setColorsFromImage(img) {
     document.querySelector(".lrc-container").style.backgroundColor =
       rgbDominantColor;
     document.querySelector(".list").style.backgroundColor = rgbDominantColor;
+    document.querySelector(".container-control").stylebackgroundColor =
+      rgbDominantColor;
 
     for (let li of listItems) {
       li.style.borderColor = rgbTextColor;

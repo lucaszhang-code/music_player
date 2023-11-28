@@ -43,7 +43,6 @@ i:hover {
 }
 
 .container {
-  flex-grow: 0;
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -55,15 +54,24 @@ i:hover {
   z-index: 5;
   box-shadow: 0 -10px 10px -5px rgba(0, 0, 0, 0.2),
     /* 上方阴影 */ 0 10px 10px -5px rgba(0, 0, 0, 0.2); /* 下方阴影 */
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); */
   transition: all 0.5s;
+  z-index: 11;
+}
+
+.container-info {
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .cover {
   display: flex;
-  width: 250px;
-  height: 250px;
+  width: 70%;
+  aspect-ratio: 1/1;
   border-radius: 10px;
   justify-content: center;
   align-items: center;
@@ -85,7 +93,7 @@ i:hover {
 
 .song-name,
 .song-singer {
-  width: 100%;
+  width: 90%;
   text-align: center;
   font: 800 25px "alimama";
 }
@@ -94,13 +102,23 @@ i:hover {
   font: 500 16px "alimama";
 }
 
+.container-control {
+  position: relative;
+  height: 35%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 999;
+}
+
 .music-bar {
-  width: 250px;
-  height: 45px;
-  /* border: 1px solid black; */
+  width: 100%;
+  height: 30%;
   display: flex;
   flex-wrap: wrap;
   cursor: pointer;
+  align-items: center;
 }
 
 .music-bar .time {
@@ -113,7 +131,7 @@ i:hover {
 .music-bar .bar {
   display: flex;
   width: 100%;
-  height: 15px;
+  height: 20px;
   align-items: center;
   transition: all 0.3s;
 }
@@ -142,8 +160,8 @@ i:hover {
 
 .control {
   display: flex;
-  width: 250px;
-  height: 50px;
+  width: 100%;
+  height: 40%;
   /* border: 1px solid black; */
   justify-content: space-around;
   align-items: center;
@@ -155,8 +173,8 @@ i:hover {
 
 .other {
   display: flex;
-  width: 250px;
-  height: 50px;
+  width: 100%;
+  height: 30%;
   /* border: 1px solid black; */
   align-items: center;
   justify-content: space-evenly;
@@ -197,9 +215,27 @@ i:hover {
     position: absolute;
   }
 
+  .container-info {
+    top: 0;
+    width: 100%;
+    position: absolute;
+    transition: all 0.5s;
+  }
+
+  .info-active {
+    width: 70%;
+    top: 5%;
+    height: 10%;
+    flex-direction: row;
+    transform: scale(0.8);
+    left: -1%;
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(100px);
+  }
+
   .cover {
     width: 80%;
-    height: 40%;
+    aspect-ratio: 1/1;
   }
 
   .cover img {
@@ -216,26 +252,36 @@ i:hover {
     font-size: 25px;
   }
 
+  .container-control {
+    z-index: 11;
+    position: absolute;
+    bottom: 0;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    width: 100%;
+    border-radius: 10px;
+    transition: ease-in-out 0.5s;
+  }
+
+  .control-active {
+    transform: translateY(-100%);
+  }
+
   .music-bar {
     width: 80%;
-    height: 10%;
+    /* height: 10%; */
   }
 
   .music-bar .time {
     font: 25px "alimama";
   }
 
-  .music-bar .bar {
-    height: 30%;
-  }
-
   .music-bar .bar:hover {
-    height: 40%;
+    height: 25%;
   }
 
   .control {
-    width: 70%;
-    height: 10%;
+    width: 80%;
   }
 
   .control i {
@@ -244,7 +290,6 @@ i:hover {
 
   .other {
     width: 80%;
-    height: 10%;
   }
 
   .other i {
@@ -356,7 +401,7 @@ i:hover {
   .lrcContainer-active {
     transform: translateX(0%);
     opacity: 1;
-    z-index: 999;
+    z-index: 10;
   }
 
   .lrc-container ul {
@@ -508,6 +553,7 @@ i:hover {
     overflow: hidden;
     transform: translateX(-100%);
     position: absolute;
+    z-index: 12;
   }
 
   .list-active {
