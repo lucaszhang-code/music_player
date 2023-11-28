@@ -1,7 +1,4 @@
 // 强制刷新页面
-function forceReload() {
-  window.location.reload(true);
-}
 
 const audio = document.querySelector("audio");
 const playButton = document.querySelector("#playButton");
@@ -90,6 +87,18 @@ const lrcContainer = document.querySelector(".lrc-container");
 const lrcWidth = lrcContainer.clientWidth;
 const container = document.querySelector(".container");
 const containerInfo = document.querySelector(".container-info");
+const songinfo = document.querySelector(".songinfo");
+const containerControl = document.querySelector(
+  ".container .container-control"
+);
+
+// 把lrcbtn清除操作写成一个函数
+const removeLrcContainer = () => {
+  lrcBtn.classList.remove("lrcBtn-active");
+  lrcContainer.classList.remove("lrcContainer-active");
+  containerInfo.classList.remove("info-active");
+  songinfo.classList.remove("songinfo-active");
+};
 
 lrcBtn.addEventListener("click", () => {
   if (!document.querySelector(".container .lrcBtn-active")) {
@@ -97,14 +106,32 @@ lrcBtn.addEventListener("click", () => {
     lrcContainer.classList.add("lrcContainer-active");
     //移动端页面
     containerInfo.classList.add("info-active");
+    setTimeout(() => {
+      songinfo.classList.add("songinfo-active");
+    });
+
+    //长时间不点屏幕，comtainer-cotrol会消失
+    let timer;
+
+    container.addEventListener("touchstart", () => {
+      clearTimeout(timer);
+      containerControl.classList.remove("control-active");
+    });
+
+    container.addEventListener("touchend", () => {
+      timer = setTimeout(() => {
+        containerControl.classList.add("control-active");
+      }, 5000);
+    });
+
+    //点击小图片回到主界面，先判断一下是否在歌词界面
+    coverImg.addEventListener("click", removeLrcContainer);
+
+    //点击coverimg也能回到主页面
   } else {
-    lrcBtn.classList.remove("lrcBtn-active");
-    lrcContainer.classList.remove("lrcContainer-active");
-    containerInfo.classList.remove("info-active");
+    removeLrcContainer();
   }
 });
-
-lrcContainer.addEventListener("focus", () => {});
 
 //点击歌曲列表展开歌曲列表
 const list = document.querySelector(".list");
