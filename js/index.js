@@ -1,5 +1,5 @@
 // 强制刷新页面
-location.reload(true);
+// location.reload(true);
 
 const audio = document.querySelector("audio");
 const playButton = document.querySelector("#playButton");
