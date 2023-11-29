@@ -480,19 +480,13 @@ i:hover {
   opacity: 1;
 }
 
-
-.playNow{
-  position: relative;
-  /*left: -40%;*/
-}
-
 .list ul {
-  position: absolute;
+  position: relative;
   transition: all 0.3s;
   overflow-y: hidden;
   width: 100%;
-  top: 20%;
-  height: 80%;
+  margin-top: 0;
+  height: 72%;
   border-top: 1px solid white;
 }
 
@@ -525,9 +519,9 @@ i:hover {
 
 .list .playNow{
   display: flex;
-  height: 10%;
+  height: 50px;
   align-items: center;
-  font-size: 20px;
+  font-size: 12px;
 }
 
 .playNow img{
@@ -551,7 +545,6 @@ i:hover {
 
 .list .filename {
   font-weight: 800;
-
 }
 
 .list li span div {
@@ -618,8 +611,15 @@ i:hover {
     font-size: 25px;
   }
 
+  .list .playNow{
+    height: 80px;
+    font-size: 20px;
+  }
+
   .list ul {
     width: 100%;
+    margin-top: 0;
+    height: 80%;
   }
 
   .list ul li {
