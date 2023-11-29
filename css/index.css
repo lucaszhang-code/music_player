@@ -27,7 +27,7 @@ body {
     height: 100vh;
     width: 100vw;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     position: fixed;
     overflow: hidden;
   }
@@ -223,7 +223,7 @@ i:hover {
 @media screen and (max-width: 500px) {
   .container {
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     position: absolute;
   }
 
@@ -235,7 +235,7 @@ i:hover {
 
   .info-active {
     position: absolute;
-    transform: scale(0.2) translateX(-200%) translateY(-190%) ;
+    transform: scale(0.2) translateX(-230%) translateY(-190%) ;
     border-radius: 20px;
   }
 
@@ -258,9 +258,9 @@ i:hover {
 
   .songinfo-active {
     position: relative;
-    height: 15%;
+    height: 10%;
     width: 70%;
-    transform: translateX(15%) translateY(-500%);
+    transform: translateX(15%) translateY(-750%);
   }
 
   .song-name,
@@ -414,7 +414,7 @@ i:hover {
 @media screen and (max-width: 500px) {
   .lrc-container {
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     overflow: hidden;
     transform: translateX(100%);
     position: absolute;
@@ -594,7 +594,7 @@ i:hover {
 @media screen and (max-width: 500px) {
   .list {
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     overflow: hidden;
     transform: translateX(-100%);
     position: absolute;
