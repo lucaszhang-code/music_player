@@ -24,8 +24,8 @@ body {
 @media screen and (max-width: 500px) {
   body {
     display: flex;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     justify-content: center;
     align-items: start;
     position: fixed;
@@ -85,7 +85,7 @@ i:hover {
   height: 85%;
   border-radius: 10px;
   transition: all 0.5s;
-  box-shadow:0 0 5px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .cover .cover-active {
@@ -222,8 +222,8 @@ i:hover {
 
 @media screen and (max-width: 500px) {
   .container {
-    width: 100vw;
-    height: 100vh;
+    width:100%;
+    height:100%;
     position: absolute;
   }
 
@@ -235,7 +235,7 @@ i:hover {
 
   .info-active {
     position: absolute;
-    transform: scale(0.2) translateX(-230%) translateY(-190%) ;
+    transform: scale(0.2) translateX(-200%) translateY(-190%);
     border-radius: 20px;
   }
 
@@ -260,7 +260,7 @@ i:hover {
     position: relative;
     height: 10%;
     width: 70%;
-    transform: translateX(15%) translateY(-750%);
+    transform: translateX(10%) translateY(-725%);
   }
 
   .song-name,
@@ -413,14 +413,14 @@ i:hover {
 
 @media screen and (max-width: 500px) {
   .lrc-container {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
     transform: translateX(100%);
     position: absolute;
   }
 
-  .content{
+  .content {
     height: 100%;
   }
 
@@ -517,14 +517,14 @@ i:hover {
   height: 50px;
 }
 
-.list .playNow{
+.list .playNow {
   display: flex;
   height: 50px;
   align-items: center;
   font-size: 12px;
 }
 
-.playNow img{
+.playNow img {
   height: 80%;
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
 }
@@ -593,8 +593,8 @@ i:hover {
 
 @media screen and (max-width: 500px) {
   .list {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
     transform: translateX(-100%);
     position: absolute;
@@ -611,7 +611,7 @@ i:hover {
     font-size: 25px;
   }
 
-  .list .playNow{
+  .list .playNow {
     height: 80px;
     font-size: 20px;
   }

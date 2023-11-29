@@ -1,5 +1,4 @@
 
-
 const changeLrc = (i) => {
   const dom = {
     audio: document.querySelector("audio"),
