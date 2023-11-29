@@ -228,7 +228,7 @@ i:hover {
   }
 
   .container-info {
-    width: 90%;
+    width: 80%;
     position: absolute;
     transition: all 0.5s;
   }
@@ -260,7 +260,7 @@ i:hover {
     position: relative;
     height: 15%;
     width: 70%;
-    transform: translateX(20%) translateY(-500%);
+    transform: translateX(15%) translateY(-500%);
   }
 
   .song-name,
