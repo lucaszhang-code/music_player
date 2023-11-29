@@ -365,12 +365,12 @@ i:hover {
 }
 
 .lrc-container ul {
+  position: relative;
   width: 100%;
-  transition: 0.5s all;
+  /*transition: 0.5s all;*/
 }
 
 .lrc-container li {
-  display: flex;
   width: 100%;
   position: relative;
   height: auto;
@@ -378,13 +378,19 @@ i:hover {
   margin-top: 20px;
   font: 500 18px "alimama";
   color: #666666;
-  transition: 0.5s all;
+  /*transition: 0.5s all;*/
   overflow-wrap: break-word;
   white-space: normal;
   justify-content: left;
   filter: blur(3px);
   -webkit-filter: blur(3px);
   margin-left: 1px;
+transition: transform 0.5s ease-in-out;
+}
+
+.lrc-container li:nth-child(1){
+  position: relative;
+  top: 30%;
 }
 
 .lrc-container .lrc-active {
@@ -392,6 +398,10 @@ i:hover {
   font: 800 18px "alimama";
   filter: blur(0);
   -webkit-filter: blur(0);
+}
+
+.delayed{
+  transition: all 0s;
 }
 
 .lrc-container .lrc-active2 {
@@ -617,6 +627,7 @@ i:hover {
   }
 
   .list ul {
+    position: relative;
     width: 100%;
     margin-top: 0;
     height: 80%;

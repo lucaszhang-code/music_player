@@ -67,7 +67,10 @@ const changeLrc = (i) => {
   let liHeights = [];
   let cumulativeHeights = [0]; // 累计高度的数组
 
-  //累加目前的高度
+  //我们让li移动，为了做弹簧效果
+
+
+  // 累加目前的高度
 
   for (let i = 0; i < liHeightAll.length; i++) {
     liHeights.push(liHeightAll[i].clientHeight);
@@ -86,12 +89,25 @@ const changeLrc = (i) => {
     let offset =
       liHeight +
       liHeights[index] / 2 +
-      (index + 4) * marginTopValue[0] -
+      (index+4 ) * marginTopValue[0] -
       containerHeight / 2;
+    console.log(offset)
+    console.log(index)
 
     if (offset < 0) offset = 0;
     // else if (offset > maxOffSet) offset = maxOffSet;
-    dom.ul.style.transform = `translateY(-${offset}px)`;
+
+    const lis=document.querySelectorAll('.lrc-container li')
+
+    lis.forEach(item =>{
+      item.style.transform = `translateY(-${offset}px)`
+    })
+
+    setTimeout(() => lis[index+1].style.transform = translateY(-${offset}px), 100)
+    setTimeout(() => lis[index+2].style.transform = translateY(-${offset}px), 200)
+    setTimeout(() => lis[index+3].style.transform = translateY(-${offset}px), 300)
+    setTimeout(() => lis[index+4].style.transform = translateY(-${offset}px), 400)
+    setTimeout(() => lis[index+5].style.transform = translateY(-${offset}px), 500)
 
     let li = dom.ul.querySelector(".lrc-active");
     if (li) {
