@@ -235,7 +235,7 @@ i:hover {
 
   .info-active {
     position: absolute;
-    transform: scale(0.25) translateX(-120%) translateY(-150%) ;
+    transform: scale(0.25) translateX(-170%) translateY(-150%) ;
     border-radius: 20px;
   }
 
@@ -260,7 +260,7 @@ i:hover {
     position: relative;
     height: 20%;
     width: 70%;
-    transform: translateX(30%) translateY(-375%);
+    transform: translateX(15%) translateY(-375%);
   }
 
   .song-name,
