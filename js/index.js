@@ -32,6 +32,8 @@ const songModel = document.querySelector(".other .songModel");
 // 监听loadedmetadata事件来设置总时间
 audio.addEventListener("loadedmetadata", () => {
   endTime.innerHTML = timeChange(audio.duration);
+  renderList()
+  songNow(songIndex);
 });
 
 audio.addEventListener("timeupdate", () => {
@@ -94,7 +96,7 @@ const containerControl = document.querySelector(
 const removeLrcContainer = () => {
   lrcBtn.classList.remove("lrcBtn-active");
   lrcContainer.classList.remove("lrcContainer-active");
-  containerInfo.classList.remove("info-active");
+  cover.classList.remove("info-active");
   songinfo.classList.remove("songinfo-active");
   flag = false;
 };
@@ -107,7 +109,7 @@ lrcBtn.addEventListener("click", () => {
     lrcBtn.classList.add("lrcBtn-active");
     lrcContainer.classList.add("lrcContainer-active");
     //移动端页面
-    containerInfo.classList.add("info-active");
+    cover.classList.add("info-active");
 
     songinfo.classList.add("songinfo-active");
     flag = true;
@@ -184,6 +186,9 @@ nextSong.addEventListener("click", () => {
   //更新图标状态
   if (audio.paused === false) updateList(songIndex);
 
+  renderList(songIndex)
+  songNow(songIndex);
+
   // updateBackgroundColorFromCover();
 });
 
@@ -198,6 +203,9 @@ prevSong.addEventListener("click", () => {
   //修改歌词
   changeLrc(songIndex);
   if (audio.paused === false) updateList(songIndex);
+
+  renderList(songIndex)
+  songNow(songIndex);
 
   updateBackgroundColorFromCover();
 });

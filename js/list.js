@@ -1,18 +1,34 @@
 let listItems = document.querySelectorAll(".list ul li");
 const listUL = document.querySelector(".list ul");
 
-const listLi = songData
-  .map((item, index) => {
-    return `
-    <li>
-      <span><img src="${songData[index].coverMini}" /><div><div class="filename">${filesName(index)}</div><div>${filesSinger(index)}</div></div></span>
-       <span><i data-id="${index}" class="iconfont icon-bofang"></i></span>
-      </li>
-    `;
-  })
-  .join(" ");
 
-listUL.innerHTML = listLi;
+const renderList= ()=> {
+  // 更新列表的代码，这取决于你的HTML结构
+  listUL.innerHTML = songData
+      .map((item, index) => {
+        if (index == songIndex) {
+          return '';
+        }
+        return `
+      <li>
+        <span><img src="${songData[index].coverMini}" /><div><div class="filename">${filesName(index)}</div><div>${filesSinger(index)}</div></div></span>
+         <span><i data-id="${index}" class="iconfont icon-bofang"></i></span>
+        </li>
+      `;
+      })
+      .join(" ");
+}
+
+const playNow=document.querySelector('.playNow');
+const playNowSongName=document.querySelector('.playNowSongName');
+const playNowSinger=document.querySelector('.playNowSinger');
+const songNow=(songIndex)=>{
+  playNow.firstElementChild.src=songData[songIndex].coverMini;
+  playNowSongName.innerHTML=filesName(songIndex);
+  playNowSinger.innerHTML=filesSinger(songIndex);
+}
+
+
 const listItem = document.querySelectorAll(".list ul i");
 
 //更新图标状态
@@ -45,10 +61,11 @@ list.addEventListener("click", (e) => {
     changeLrc(id);
     //更新图标状态
     updateList(id);
-
+    //改变颜色
     updateCachedColors();
 
     songIndex = id;
+    songNow(songIndex);
   }
 });
 
