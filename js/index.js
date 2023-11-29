@@ -1,3 +1,37 @@
+function getBrowserInterfaceSize() {
+  let pageWidth = window.innerWidth;
+  let pageHeight = window.innerHeight;
+
+  if (typeof pageWidth != "number") {
+    //在标准模式下面
+    if (document.compatMode == "CSS1Compat" ) {
+      pageWidth = document.documentElement.clientWidth;
+      pageHeight = document.documentElement.clientHeight;
+    } else {
+      pageWidth = document.body.clientWidth;
+      pageHeight = window.body.clientHeight;
+    }
+  }
+  return {
+    pageWidth: pageWidth,
+    pageHeight: pageHeight
+  }
+}
+
+
+  window.addEventListener('resize', function() {
+    let size = getBrowserInterfaceSize();
+    console.log('页面宽度：' + size.pageWidth);
+    console.log('页面高度：' + size.pageHeight);
+  });
+
+window.addEventListener('resize', function() {
+  var size = getBrowserInterfaceSize();
+  document.body.style.width = size.pageWidth + 'px';
+  document.body.style.height = size.pageHeight + 'px';
+});
+
+
 const audio = document.querySelector("audio");
 const playButton = document.querySelector("#playButton");
 const coverImg = document.querySelector(".container .cover img");
