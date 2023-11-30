@@ -235,7 +235,7 @@ i:hover {
 
   .info-active {
     position: absolute;
-    transform: scale(0.2) translateX(-200%) translateY(-190%);
+    transform: scale(0.2) translateX(-200%) translateY(-230%);
     border-radius: 20px;
   }
 
@@ -260,7 +260,7 @@ i:hover {
     position: relative;
     height: 10%;
     width: 70%;
-    transform: translateX(10%) translateY(-725%);
+    transform: translateX(10%) translateY(-800%);
   }
 
   .song-name,
@@ -385,12 +385,7 @@ i:hover {
   filter: blur(3px);
   -webkit-filter: blur(3px);
   margin-left: 1px;
-transition: transform 0.5s ease-in-out;
-}
-
-.lrc-container li:nth-child(1){
-  position: relative;
-  top: 30%;
+  transition: transform 0.5s ease-in-out;
 }
 
 .lrc-container .lrc-active {
@@ -398,10 +393,6 @@ transition: transform 0.5s ease-in-out;
   font: 800 18px "alimama";
   filter: blur(0);
   -webkit-filter: blur(0);
-}
-
-.delayed{
-  transition: all 0s;
 }
 
 .lrc-container .lrc-active2 {
