@@ -23,7 +23,7 @@ window.addEventListener("resize", function () {
 });
 
 window.addEventListener("resize", function () {
-  var size = getBrowserInterfaceSize();
+ let size = getBrowserInterfaceSize();
   document.body.style.width = size.pageWidth + "px";
   document.body.style.height = size.pageHeight + "px";
 });
@@ -111,51 +111,45 @@ bar.addEventListener("click", (e) => {
   audio.currentTime = (audio.duration * clickX) / barWidth;
 });
 
-//选定进度条时间
-// const bar = document.querySelector(".container .bar");
-// const barWidth = bar.clientWidth;
-console.log(bar.offsetLeft);
-// 为进度条添加touchstart事件监听
-bar.addEventListener("touchstart", (e) => {
-  // 阻止默认行为
-  e.preventDefault();
-  // 阻止冒泡行为
-  e.stopPropagation();
-  // 获取触摸点的位置
-  let touch = e.touches[0];
-  // 获取触摸点相对于进度条的位置
-  let clickX = touch.clientX - bar.offsetLeft;
-  // 计算出触摸点相对于进度条的百分比
-  let value = (clickX / barWidth) * 100;
-  // 设置进度条的宽度
-  barNow.style.width = value + "%";
-  // 设置音乐的当前时间
-  audio.currentTime = (audio.duration * clickX) / barWidth;
-});
-// 为进度条添加touchmove事件监听
-bar.addEventListener("touchmove", (e) => {
-  // 阻止默认行为
-  e.preventDefault();
-  // 阻止冒泡行为
-  e.stopPropagation();
-  // 获取触摸点的位置
-  let touch = e.touches[0];
-  // 获取触摸点相对于进度条的位置
-  let clickX = touch.clientX - bar.offsetLeft;
-  // 计算出触摸点相对于进度条的百分比
-  let value = (clickX / barWidth) * 100;
-  // 设置进度条的宽度
-  barNow.style.width = value + "%";
-  // 设置音乐的当前时间
-  audio.currentTime = (audio.duration * clickX) / barWidth;
-});
-// 为进度条添加touchend事件监听
-bar.addEventListener("touchend", (e) => {
-  // 阻止默认行为
-  e.preventDefault();
-  // 阻止冒泡行为
-  e.stopPropagation();
-});
+
+// // 为进度条添加touchstart事件监听
+// bar.addEventListener("touchstart", (e) => {
+//   e.preventDefault();
+//   e.stopPropagation();
+//   // 获取触摸点的位置
+//   let touch = e.touches[0];
+//   // 获取触摸点相对于进度条的位置
+//   let clickX = touch.clientX - bar.offsetLeft;
+//   // 计算出触摸点相对于进度条的百分比
+//   let value = (clickX / barWidth) * 100;
+//   // 设置进度条的宽度
+//   barNow.style.width = value + "%";
+//   // 设置音乐的当前时间
+//   audio.currentTime = (audio.duration * clickX) / barWidth;
+// });
+// // 为进度条添加touchmove事件监听
+// bar.addEventListener("touchmove", (e) => {
+//   e.preventDefault();
+//   e.stopPropagation();
+//   // 获取触摸点的位置
+//   let touch = e.touches[0];
+//   // 获取触摸点相对于进度条的位置
+//   let clickX = touch.clientX - bar.offsetLeft;
+//   // 计算出触摸点相对于进度条的百分比
+//   let value = (clickX / barWidth) * 100;
+//   // 设置进度条的宽度
+//   barNow.style.width = value + "%";
+// // 设置音乐的当前时间
+//   audio.currentTime = (audio.duration * clickX) / barWidth;
+// });
+//
+// // 为进度条添加touchend事件监听
+// bar.addEventListener("touchend", (e) => {
+//   // 阻止默认行为
+//   e.preventDefault();
+//   // 阻止冒泡行为
+//   e.stopPropagation();
+// });
 
 //点击歌词按钮展开歌词
 const lrcBtn = document.querySelector(".container .icon-geci");
@@ -206,9 +200,11 @@ listBtn.addEventListener("click", () => {
   if (!document.querySelector(".container .listBtn-active")) {
     list.classList.add("list-active");
     listBtn.classList.add("listBtn-active");
+    container.classList.add('container-active')
   } else {
     list.classList.remove("list-active");
     listBtn.classList.remove("listBtn-active");
+    container.classList.remove('container-active')
   }
 });
 
@@ -217,6 +213,7 @@ const closeListBtn = document.querySelector("#list-close");
 closeListBtn.addEventListener("click", () => {
   list.classList.remove("list-active");
   listBtn.classList.remove("listBtn-active");
+  container.classList.remove('container-active')
 });
 
 //把songData的数据填入相应的位置

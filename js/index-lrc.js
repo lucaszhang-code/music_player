@@ -89,7 +89,7 @@ const changeLrc = (i) => {
     let offset =
       liHeight +
       liHeights[index] / 2 +
-      (index+4 ) * marginTopValue[0] -
+      (index+2) * marginTopValue[0] -
       containerHeight / 2;
     console.log(offset)
     console.log(index)
@@ -111,14 +111,13 @@ const changeLrc = (i) => {
       // 使用一个setTimeout函数，传入一个回调函数和延迟时间
       setTimeout(() => {
         // 在回调函数中，使用for循环来遍历li元素
-        for (let i = 1 ; i <= lis.length; i++) {
-          // 设置每个li元素的transform属性，使用模板字符串来插入变量
-          // lis[i].style.transform = `translateY(-${offset}px)`;
+        for (let i = 0 ; i <= lis.length; i++) {
+          // 设置每个li元素的transform属性，使用模板字符串来插入变
           // 设置每个li元素的transition属性，使用模板字符串来插入变量
-          lis[i].style.transition = `transform 0.5s ease-in-out`;
+          // lis[i].style.transition = `transform 400ms ease-in-out`;
           // 设置每个li元素的transition-delay属性，使用模板字符串来插入变量
           // 这里使用了一个计算公式，让每个li元素的延迟时间递增0.1秒
-          lis[i].style.transitionDelay = `${(i - index - 1) * 0.1}s`;
+          lis[i].style.transitionDelay = `${(i - index - 1) * 0.05}s`;
           // 增加延迟时间，每次增加100毫秒
           delay += 100;
         }
