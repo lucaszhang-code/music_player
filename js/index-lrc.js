@@ -97,17 +97,36 @@ const changeLrc = (i) => {
     if (offset < 0) offset = 0;
     // else if (offset > maxOffSet) offset = maxOffSet;
 
-    const lis=document.querySelectorAll('.lrc-container li')
+    const lis = dom.ul.querySelectorAll('.lrc-container li');
+    const liLength=lis.length
 
-    lis.forEach(item =>{
-      item.style.transform = `translateY(-${offset}px)`
+
+      lis.forEach((item) =>{
+        item.style.transform = `translateY(-${offset}px)`
     })
 
-    setTimeout(() => lis[index+1].style.transform = translateY(-${offset}px), 100)
-    setTimeout(() => lis[index+2].style.transform = translateY(-${offset}px), 200)
-    setTimeout(() => lis[index+3].style.transform = translateY(-${offset}px), 300)
-    setTimeout(() => lis[index+4].style.transform = translateY(-${offset}px), 400)
-    setTimeout(() => lis[index+5].style.transform = translateY(-${offset}px), 500)
+    const lrcScroll = (index) => {
+      // 设置一个变量，用来存储延迟时间
+      let delay = 100;
+      // 使用一个setTimeout函数，传入一个回调函数和延迟时间
+      setTimeout(() => {
+        // 在回调函数中，使用for循环来遍历li元素
+        for (let i = 1 ; i <= lis.length; i++) {
+          // 设置每个li元素的transform属性，使用模板字符串来插入变量
+          // lis[i].style.transform = `translateY(-${offset}px)`;
+          // 设置每个li元素的transition属性，使用模板字符串来插入变量
+          lis[i].style.transition = `transform 0.5s ease-in-out`;
+          // 设置每个li元素的transition-delay属性，使用模板字符串来插入变量
+          // 这里使用了一个计算公式，让每个li元素的延迟时间递增0.1秒
+          lis[i].style.transitionDelay = `${(i - index - 1) * 0.1}s`;
+          // 增加延迟时间，每次增加100毫秒
+          delay += 100;
+        }
+      }, delay);
+    };
+
+    lrcScroll(index);
+
 
     let li = dom.ul.querySelector(".lrc-active");
     if (li) {
@@ -122,10 +141,7 @@ const changeLrc = (i) => {
     }
 
     //模糊程度不同
-
-    document
-      .querySelectorAll(".lrc-container ul li")
-      .forEach((item) => item.classList.remove("lrc-active2"));
+    lis.forEach((item) => item.classList.remove("lrc-active2"));
     dom.ul.children[index + 1].classList.add("lrc-active2");
   };
 
