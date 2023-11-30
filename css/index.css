@@ -289,8 +289,8 @@ i:hover {
     z-index: 11;
     position: absolute;
     bottom: 0;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     width: 100%;
     border-radius: 10px;
     transition: ease-in-out 0.5s;
@@ -540,6 +540,10 @@ i:hover {
   height: 50px;
   align-items: center;
   font-size: 12px;
+}
+
+.list .playNowSinger{
+  height: 30px;
   text-overflow: ellipsis;
 }
 
@@ -631,8 +635,21 @@ i:hover {
   }
 
   .list .playNow {
+    width: 80%;
     height: 80px;
     font-size: 20px;
+    overflow: hidden;
+  }
+
+  playNow-info{
+
+  }
+
+  .playNow .playNowSinger{
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
   }
 
   .list ul {

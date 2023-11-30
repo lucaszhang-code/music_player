@@ -188,10 +188,18 @@ lrcBtn.addEventListener("click", () => {
     removeLrcContainer();
     console.log(flag);
   }
+  controlDisplay(flag)
 });
 
-//点击coverimg也能回到主页面
-coverImg.addEventListener("click", removeLrcContainer);
+//点击coverimg也能回到主页面,这个地方实在没办法调用两个函数，只能照抄了
+coverImg.addEventListener("click", ()=>{
+  lrcBtn.classList.remove("lrcBtn-active");
+  lrcContainer.classList.remove("lrcContainer-active");
+  cover.classList.remove("info-active");
+  songinfo.classList.remove("songinfo-active");
+  flag = false;
+  controlDisplay(flag)
+});
 
 //点击歌曲列表展开歌曲列表
 const list = document.querySelector(".list");
@@ -208,8 +216,46 @@ listBtn.addEventListener("click", () => {
   }
 });
 
+let currentFlagState = flag; // 初始化为初始的flag值
+
+const controlDisplay = (newFlag) => {
+  if (currentFlagState !== newFlag) {
+    currentFlagState = newFlag;
+
+    if (newFlag) {
+      container.addEventListener('touchstart', touchStartHandler);
+      container.addEventListener('touchend', touchEndHandler);
+      touchEndHandler()
+    } else {
+      container.removeEventListener('touchstart', touchStartHandler);
+      container.removeEventListener('touchend', touchEndHandler);
+
+      clearTimeout(timeoutId);
+      containerControl.classList.remove('control-active');
+    }
+  }
+};
+
+let timeoutId;
+const touchStartHandler = () => {
+  console.log('start');
+  clearTimeout(timeoutId);
+  containerControl.classList.remove('control-active');
+};
+
+const touchEndHandler = () => {
+  console.log('end');
+ timeoutId = setTimeout(()=>
+     containerControl.classList.add('control-active'),5000) ; // 假设这是设置新定时器的函数
+};
+
+
+// 在flag值改变时调用controlDisplay
+// 例如，在某个事件或条件改变flag时调用controlDisplay(flag)
+
 //点击歌曲列表关闭图标关闭歌词界面
 const closeListBtn = document.querySelector("#list-close");
+
 closeListBtn.addEventListener("click", () => {
   list.classList.remove("list-active");
   listBtn.classList.remove("listBtn-active");
