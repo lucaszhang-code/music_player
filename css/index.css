@@ -213,9 +213,10 @@ i:hover {
 }
 
 .container .lrcBtn-active {
-  background-color: skyblue;
+  background-color: black;
   color: white;
   border-radius: 5px;
+  border: 3px solid black;
 }
 
 .icon-liebiao {
@@ -224,9 +225,10 @@ i:hover {
 }
 
 .container .listBtn-active {
-  background-color: skyblue;
+  background-color: black;
   color: white;
   border-radius: 5px;
+  border: 3px solid black;
 }
 
 @media screen and (max-width: 500px) {
@@ -407,7 +409,6 @@ i:hover {
   font: 800 18px "alimama";
   filter: blur(0);
   -webkit-filter: blur(0);
-  transform: scale(1.2);
 }
 
 .lrc-container .lrc-active2 {
@@ -464,12 +465,14 @@ i:hover {
   }
 
   .lrc-container .lrc-active {
+    position: relative;
+    transform: scale(1.1);
     color: white;
     font: 800 25px "";
     font-weight: bold;
     filter: blur(0);
     -webkit-filter: blur(0);
-  }
+     }
 
   .lrc-container i {
     font-size: 40px;

@@ -91,8 +91,6 @@ const changeLrc = (i) => {
       liHeights[index] / 2 +
       (index+2) * marginTopValue[0] -
       containerHeight / 2;
-    console.log(offset)
-    console.log(index)
 
     if (offset < 0) offset = 0;
     // else if (offset > maxOffSet) offset = maxOffSet;
@@ -112,9 +110,6 @@ const changeLrc = (i) => {
       setTimeout(() => {
         // 在回调函数中，使用for循环来遍历li元素
         for (let i = 0 ; i <= lis.length; i++) {
-          // 设置每个li元素的transform属性，使用模板字符串来插入变
-          // 设置每个li元素的transition属性，使用模板字符串来插入变量
-          // lis[i].style.transition = `transform 400ms ease-in-out`;
           // 设置每个li元素的transition-delay属性，使用模板字符串来插入变量
           // 这里使用了一个计算公式，让每个li元素的延迟时间递增0.1秒
           lis[i].style.transitionDelay = `${(i - index - 1) * 0.05}s`;
@@ -127,15 +122,22 @@ const changeLrc = (i) => {
     lrcScroll(index);
 
 
-    let li = dom.ul.querySelector(".lrc-active");
-    if (li) {
-      li.classList.remove("lrc-active");
-    }
+    // let li = dom.ul.querySelector(".lrc-active");
+    // if (li) {
+    //   li.classList.remove("lrc-active");
+    // }
+    //
+    // li = dom.ul.children[index];
+    // if (li) {
+    //   li.classList.add("lrc-active");
+    // }
 
-    li = dom.ul.children[index];
-    if (li) {
-      li.classList.add("lrc-active");
+    if(document.querySelector('.lrc-active')){
+      lis.forEach(item=>{
+        item.classList.remove('lrc-active')
+      })
     }
+    lis[index].classList.add('lrc-active')
 
     //模糊程度不同
     lis.forEach((item) => item.classList.remove("lrc-active2"));
