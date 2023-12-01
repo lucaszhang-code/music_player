@@ -280,7 +280,7 @@ i:hover {
     position: relative;
     height: 10%;
     width: 80%;
-    transform:scale(0.8) translateX(20%) translateY(-1000%);
+    transform:scale(0.8) translateX(25%) translateY(-1000%);
     white-space: nowrap;
     text-overflow: ellipsis;
   }
