@@ -113,7 +113,6 @@ i:hover {
   justify-content: space-evenly;
   align-items: start;
   transition: ease-in-out 0.3s;
-  overflow: hidden;
   white-space: nowrap;
 }
 
@@ -278,17 +277,19 @@ i:hover {
 
   .songinfo-active {
     position: relative;
-    height: 10%;
+    height: 15%;
     width: 80%;
-    transform:scale(0.8) translateX(25%) translateY(-1000%);
+    transform:scale(0.8) translateX(25%) translateY(-660%);
     white-space: nowrap;
     text-overflow: ellipsis;
+    overflow: hidden;
   }
 
   .song-name,
   .song-singer {
     position: relative;
     font-size: 25px;
+    height: 100%;
   }
 
   .song-singer {
