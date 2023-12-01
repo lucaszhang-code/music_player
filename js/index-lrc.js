@@ -1,4 +1,3 @@
-
 const changeLrc = (i) => {
   const dom = {
     audio: document.querySelector("audio"),
@@ -87,10 +86,10 @@ const changeLrc = (i) => {
     let index = findIndex();
     let liHeight = cumulativeHeights[index];
     let offset =
-      liHeight +
-      liHeights[index] / 2 +
-      (index+2) * marginTopValue[0] -
-      containerHeight / 2;
+        liHeight +
+        liHeights[index] / 2 +
+        (index+2) * marginTopValue[0] -
+        containerHeight / 2;
 
     if (offset < 0) offset = 0;
     // else if (offset > maxOffSet) offset = maxOffSet;
@@ -99,8 +98,8 @@ const changeLrc = (i) => {
     const liLength=lis.length
 
 
-      lis.forEach((item) =>{
-        item.style.transform = `translateY(-${offset}px)`
+    lis.forEach((item) =>{
+      item.style.transform = `translateY(-${offset}px)`
     })
 
     const lrcScroll = (index) => {

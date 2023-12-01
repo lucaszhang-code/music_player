@@ -8,9 +8,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index-lrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index-lrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/lrc-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lrc-data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/song-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/song-data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +118,8 @@
       <workItem from="1701413420156" duration="1000" />
       <workItem from="1701416396923" duration="1273000" />
       <workItem from="1701420509526" duration="3999000" />
-      <workItem from="1701427015203" duration="8032000" />
+      <workItem from="1701427015203" duration="8149000" />
+      <workItem from="1701439205187" duration="6497000" />
     </task>
     <servers />
   </component>

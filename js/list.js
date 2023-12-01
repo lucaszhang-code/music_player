@@ -65,6 +65,7 @@ list.addEventListener("click", (e) => {
     songNow(id);
 
     bgImage(id)
+    textScroll()
     songIndex = id;
   }
 });

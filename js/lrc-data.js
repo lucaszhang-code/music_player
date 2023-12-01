@@ -509,6 +509,9 @@ const lrc = [
 [03:50.372]
 `,
     `
+    [00:00.00]
+[00:00.00]
+[00:00.00]
 [00:00.000]作词 : 尹初七
 [00:01.000]作曲 : 柏松
 [00:02.000]编曲 : 彭圣杰
@@ -556,6 +559,9 @@ const lrc = [
     `
 ,
 `
+[00:00.00]
+[00:00.00]
+[00:00.00]
 [00:00.000]一路生花-温奕心
 [00:01.620]词：宋普照
 [00:03.240]曲：张博文
@@ -611,6 +617,9 @@ const lrc = [
 `
 ,
 `
+[00:00.00]
+[00:00.00]
+[00:00.00]
 [00:00.000]作词 : Guy Berryman/Christopher Martin/Jonny Buckland/Andrew Taggart/Will Champion
 [00:01.000]作曲 : Guy Berryman/Christopher Martin/Jonny Buckland/Andrew Taggart/Will Champion
 [00:02.000]编曲 : The Chainsmokers

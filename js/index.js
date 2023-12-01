@@ -23,7 +23,7 @@ window.addEventListener("resize", function () {
 });
 
 window.addEventListener("resize", function () {
- let size = getBrowserInterfaceSize();
+  let size = getBrowserInterfaceSize();
   document.body.style.width = size.pageWidth + "px";
   document.body.style.height = size.pageHeight + "px";
 });
@@ -32,6 +32,31 @@ const audio = document.querySelector("audio");
 const playButton = document.querySelector("#playButton");
 const coverImg = document.querySelector(".container .cover img");
 const cover = document.querySelector(".container .cover");
+
+//文字长度超过父元素，文字滚动
+const songInfo=document.querySelector('.song-info')
+const playNowInfo=document.querySelector('.playNow-info')
+const textScroll=()=>{
+  if(songName.offsetWidth>songInfo.offsetWidth){
+    songName.style.animation = 'scrollText 10s linear infinite';
+  }
+  else songName.style.animation=``
+
+  if(songSinger.offsetWidth>songInfo.offsetWidth){
+    songSinger.style.animation = 'scrollText 10s linear infinite';
+  }
+  else songSinger.style.animation=``
+
+  if(playNowSongName.offsetWidth>playNowInfo.offsetWidth){
+    playNowSongName.style.animation = 'scrollText 10s linear infinite';
+  }
+  else playNowSongName.style.animation = '';
+
+  if(playNowSinger.offsetWidth>playNowInfo.offsetWidth){
+    playNowSinger.style.animation = 'scrollText 10s linear infinite';
+  }
+  else playNowSinger.style.animation = '';
+}
 
 //播放模块
 playButton.addEventListener("click", () => {
@@ -65,6 +90,7 @@ audio.addEventListener("loadedmetadata", () => {
   renderList();
   songNow(songIndex);
   bgImage(songIndex)
+  textScroll()
 });
 
 //将背景颜色替换为背景图片
@@ -76,6 +102,7 @@ const bgImage=(songIndex)=>{
 audio.addEventListener("timeupdate", () => {
   nowTime.innerHTML = timeChange(audio.currentTime);
   bgImage(songIndex)
+
 
   // 仅当audio.duration不是NaN时才更新进度条和其他内容
   if (!isNaN(audio.duration)) {
@@ -90,7 +117,7 @@ audio.addEventListener("timeupdate", () => {
         audio.currentTime = 0;
         audio.play();
       } else if (
-        songModel.firstElementChild.classList.contains("icon-shunxubofang")
+          songModel.firstElementChild.classList.contains("icon-shunxubofang")
       ) {
         nextSong.click();
         audio.play();
@@ -127,7 +154,7 @@ const container = document.querySelector(".container");
 const containerInfo = document.querySelector(".container-info");
 const songinfo = document.querySelector(".container .song-info");
 const containerControl = document.querySelector(
-  ".container .container-control"
+    ".container .container-control"
 );
 
 // 把lrcbtn清除操作写成一个函数
@@ -149,11 +176,16 @@ lrcBtn.addEventListener("click", () => {
     //移动端页面
     cover.classList.add("info-active");
 
+
+
+    console.log(songSinger.offsetWidth,songInfo.offsetWidth)
+
     songinfo.classList.add("songinfo-active");
     flag = true;
     console.log(flag);
   } else {
     removeLrcContainer();
+
     console.log(flag);
   }
   controlDisplay(flag)
@@ -193,7 +225,6 @@ const controlDisplay = (newFlag) => {
     if (newFlag) {
       container.addEventListener('touchstart', touchStartHandler);
       container.addEventListener('touchend', touchEndHandler);
-      touchEndHandler()
     } else {
       container.removeEventListener('touchstart', touchStartHandler);
       container.removeEventListener('touchend', touchEndHandler);
@@ -213,8 +244,8 @@ const touchStartHandler = () => {
 
 const touchEndHandler = () => {
   console.log('end');
- timeoutId = setTimeout(()=>
-     containerControl.classList.add('control-active'),5000) ; // 假设这是设置新定时器的函数
+  timeoutId = setTimeout(()=>
+      containerControl.classList.add('control-active'),5000) ; // 假设这是设置新定时器的函数
 };
 
 
