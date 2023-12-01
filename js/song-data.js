@@ -56,6 +56,21 @@ const songData = [
     url:'./assets/HoneyComeBear - 十夏の花.mp3',
     cover:'./image/十夏の花.jpg',
     coverMini: './image-mini/十夏の花.jpg'
+  },
+  {
+    url:'./assets/柏松 - 世间美好与你环环相扣.mp3',
+    cover:'./image/世间美好与你环环相扣.jpg',
+    coverMini: './image-mini/世间美好与你环环相扣.jpg'
+  },
+  {
+    url:'./assets/温奕心 - 一路生花.mp3',
+    cover:'./image/一路生花.jpg',
+    coverMini: './image-mini/一路生花.jpg'
+  },
+  {
+    url:'./assets/The Chainsmokers,Coldplay - Something Just Like This.mp3',
+    cover:'./image/something-just-like-this.jpg',
+    coverMini: './image-mini/something-just-like-this.jpg'
   }
 ];
 
