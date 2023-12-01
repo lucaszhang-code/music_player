@@ -175,9 +175,6 @@ lrcBtn.addEventListener("click", () => {
     lrcContainer.classList.add("lrcContainer-active");
     //移动端页面
     cover.classList.add("info-active");
-
-
-
     console.log(songSinger.offsetWidth,songInfo.offsetWidth)
 
     songinfo.classList.add("songinfo-active");
@@ -225,6 +222,7 @@ const controlDisplay = (newFlag) => {
     if (newFlag) {
       container.addEventListener('touchstart', touchStartHandler);
       container.addEventListener('touchend', touchEndHandler);
+      touchEndHandler()
     } else {
       container.removeEventListener('touchstart', touchStartHandler);
       container.removeEventListener('touchend', touchEndHandler);
