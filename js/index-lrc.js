@@ -130,13 +130,11 @@ const changeLrc = (i) => {
     let li = dom.ul.querySelector(".lrc-active");
     if (li) {
       li.classList.remove("lrc-active");
-      li.style.color = defaultLyricColor; // 恢复默认颜色
     }
 
     li = dom.ul.children[index];
     if (li) {
       li.classList.add("lrc-active");
-      updateActiveLyricColor(index, dom); // 修改这里，传入 dom 而不是 li
     }
 
     //模糊程度不同

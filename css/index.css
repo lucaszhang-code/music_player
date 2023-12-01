@@ -20,7 +20,9 @@ body {
   transition: all 0.5s;
   overflow: hidden;
   user-select: none;
-  background-color:#968c7a;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
 }
 
 @media screen and (max-width: 500px) {
@@ -32,17 +34,18 @@ body {
     align-items: start;
     position: fixed;
     overflow: hidden;
+    background-repeat: repeat;
   }
 }
 
 i {
   cursor: pointer;
   transition: ease-in-out .3s;
+  color: white;
 }
 
 i:hover {
   border-radius: 2px;
-  color: white;
 }
 
 @media(any-hover:hover){
@@ -206,7 +209,6 @@ i:hover {
 
 .icon-geci {
   background-color: transparent;
-  color: black;
   border-radius: 2px;
 }
 
@@ -218,7 +220,6 @@ i:hover {
 
 .icon-liebiao {
   background-color: transparent;
-  color: black;
   border-radius: 2px;
 }
 
@@ -492,7 +493,6 @@ i:hover {
   opacity: 0;
   flex-direction: column;
   align-items: start;
-  background-color:#968c7a;
 }
 
 .list-active {
@@ -624,6 +624,7 @@ i:hover {
     transform: translateX(-100%);
     position: absolute;
     z-index: 12;
+    background-color: rgba(0, 0, 0, 0.75);
   }
 
   .list-active {

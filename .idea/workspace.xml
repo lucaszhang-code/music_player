@@ -7,8 +7,16 @@
     <list default="true" id="87930848-9c2c-4334-b5f4-f44f5f0db969" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/backgroundColor.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/backgroundColor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Da Capo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/Da-Capo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/星になる (feat. 倚水) .jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/星になる.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/春を待つ(feat. 倚水).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/春を待つ.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/轻涟 La vaguelette.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/轻涟-La-vaguelette.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/마지막 세계의 왈츠.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/마지막-세계의-왈츠.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index-lrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index-lrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/song-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/song-data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +121,8 @@
       <workItem from="1701407931184" duration="2878000" />
       <workItem from="1701410857191" duration="144000" />
       <workItem from="1701413420156" duration="1000" />
-      <workItem from="1701416396923" duration="408000" />
+      <workItem from="1701416396923" duration="1273000" />
+      <workItem from="1701420509526" duration="3922000" />
     </task>
     <servers />
   </component>

@@ -62,7 +62,9 @@ list.addEventListener("click", (e) => {
     //更新图标状态
     updateList(id);
 
-    songNow(songIndex);
+    songNow(id);
+
+    bgImage(id)
     songIndex = id;
   }
 });

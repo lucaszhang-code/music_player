@@ -14,7 +14,7 @@ const songData = [
   },
   {
     url: "./assets/HOYOMiX - Da Capo.mp3",
-    cover: "./image/Da Capo.jpg",
+    cover: "./image/Da-Capo.jpg",
     coverMini: './image-mini/Da Capo.jpg'
   },
   {
@@ -24,7 +24,7 @@ const songData = [
   },
   {
     url: "./assets/Sereno - 마지막 세계의 왈츠.mp3",
-    cover: "./image/마지막 세계의 왈츠.jpg",
+    cover: "./image/마지막-세계의-왈츠.jpg",
     coverMini: './image-mini/마지막 세계의 왈츠.jpg'
   },
   {
@@ -34,12 +34,12 @@ const songData = [
   },
   {
     url: "./assets/Islet,倚水 - 星になる (feat. 倚水).mp3",
-    cover: "./image/星になる (feat. 倚水) .jpg",
+    cover: "./image/星になる.jpg",
     coverMini: './image-mini/星になる (feat. 倚水) .jpg'
   },
   {
     url: "./assets/Islet,倚水 - 春を待つ (feat. 倚水).mp3",
-    cover: "./image/春を待つ(feat. 倚水).jpg",
+    cover: "./image/春を待つ.jpg",
     coverMini: './image-mini/春を待つ(feat. 倚水).jpg'
   },
   {
@@ -49,7 +49,7 @@ const songData = [
   },
 {
   url: './assets/HOYO MiX - 轻涟 La vaguelette .mp3',
-  cover:'./image/轻涟 La vaguelette.jpg',
+  cover:'./image/轻涟-La-vaguelette.jpg',
   coverMini: './image-mini/轻涟 La vaguelette.jpg'
 },
   {

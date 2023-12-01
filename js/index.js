@@ -64,10 +64,18 @@ audio.addEventListener("loadedmetadata", () => {
   endTime.innerHTML = timeChange(audio.duration);
   renderList();
   songNow(songIndex);
+  bgImage(songIndex)
 });
+
+//将背景颜色替换为背景图片
+const bgImage=(songIndex)=>{
+  document.body.style.backgroundImage=`url(${songData[songIndex].cover})`
+  console.log(songData[songIndex].cover)
+}
 
 audio.addEventListener("timeupdate", () => {
   nowTime.innerHTML = timeChange(audio.currentTime);
+  bgImage(songIndex)
 
   // 仅当audio.duration不是NaN时才更新进度条和其他内容
   if (!isNaN(audio.duration)) {
@@ -308,6 +316,8 @@ nextSong.addEventListener("click", () => {
   renderList(songIndex);
   songNow(songIndex);
 
+  bgImage(songIndex)
+
   // updateBackgroundColorFromCover();
 });
 
@@ -326,7 +336,7 @@ prevSong.addEventListener("click", () => {
   renderList(songIndex);
   songNow(songIndex);
 
-  updateBackgroundColorFromCover();
+  bgImage(songIndex)
 });
 
 //静音
@@ -353,3 +363,5 @@ songModel.addEventListener("click", () => {
     songModel.firstElementChild.classList.add("icon-danquxunhuan");
   }
 });
+
+
