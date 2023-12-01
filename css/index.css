@@ -492,6 +492,7 @@ i:hover {
   opacity: 0;
   flex-direction: column;
   align-items: start;
+  background-color:#968c7a;
 }
 
 .list-active {

@@ -23,11 +23,6 @@ const songData = [
     coverMini: './image-mini/飞鸟和蝉.jpg'
   },
   {
-    url: "./assets/FIFTY FIFTY - Cupid.mp3",
-    cover: "./image/Cupid.jpg",
-    coverMini: './image-mini/Cupid.jpg'
-  },
-  {
     url: "./assets/Sereno - 마지막 세계의 왈츠.mp3",
     cover: "./image/마지막 세계의 왈츠.jpg",
     coverMini: './image-mini/마지막 세계의 왈츠.jpg'
@@ -36,17 +31,6 @@ const songData = [
     url: "./assets/YOASOBI - アイドル.mp3",
     cover: "./image/アイドル.jpg",
     coverMini: './image-mini/アイドル.jpg'
-  },
-  {
-    url: "./assets/花玲,张安琪,沐霏 - 我不曾忘记.mp3",
-    cover: "./image/我不曾忘记.jpg",
-    coverMini: './image-mini/我不曾忘记.jpg'
-
-  },
-  {
-    url: "./assets/YOASOBI - 祝福.mp3",
-    cover: "./image/祝福.jpg",
-    coverMini: './image-mini/祝福.jpg'
   },
   {
     url: "./assets/Islet,倚水 - 星になる (feat. 倚水).mp3",

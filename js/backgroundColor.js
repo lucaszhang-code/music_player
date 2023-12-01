@@ -31,6 +31,7 @@ function applyColorsToPage(dominantColor, textColor) {
 
   document.body.style.backgroundColor = rgbDominantColor;
   document.body.style.color = rgbTextColor;
+  document.querySelector('.list').style.backgroundColor = rgbDominantColor;
 
   // Update other elements as needed
   const listItems = document.querySelectorAll(".list ul li");

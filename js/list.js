@@ -61,11 +61,9 @@ list.addEventListener("click", (e) => {
     changeLrc(id);
     //更新图标状态
     updateList(id);
-    //改变颜色
-    updateCachedColors();
 
-    songIndex = id;
     songNow(songIndex);
+    songIndex = id;
   }
 });
 
