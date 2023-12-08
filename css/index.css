@@ -468,7 +468,7 @@ i:hover {
   }
 
   .lrc-container li {
-    font: 500 25px "";
+    font: 500 30px "Arial";
     font-weight: normal;
     margin-top: 30px;
     width: 100%;
@@ -478,7 +478,7 @@ i:hover {
     position: relative;
     transform: scale(1.1);
     color: white;
-    font: 800 25px "";
+    font: 800 30px "Arial";
     font-weight: bold;
     filter: blur(0);
     -webkit-filter: blur(0);
