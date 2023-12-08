@@ -7,6 +7,7 @@
     <list default="true" id="87930848-9c2c-4334-b5f4-f44f5f0db969" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/song-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/song-data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lucas/Desktop/工作/HTML学习/音乐播放器&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lucas/Desktop/工作/HTML学习/Java Script/APIs/练习网页&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -115,6 +116,10 @@
       <workItem from="1701420509526" duration="3999000" />
       <workItem from="1701427015203" duration="8149000" />
       <workItem from="1701439205187" duration="7719000" />
+      <workItem from="1701493212399" duration="11000" />
+      <workItem from="1701493236703" duration="1000" />
+      <workItem from="1701529602005" duration="189000" />
+      <workItem from="1702049898453" duration="805000" />
     </task>
     <servers />
   </component>

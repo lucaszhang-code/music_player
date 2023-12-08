@@ -401,7 +401,7 @@ i:hover {
   line-height: inherit;
   margin-top: 20px;
   font: 500 18px "alimama";
-  color: #666666;
+  color: white;
   /*transition: 0.5s all;*/
   overflow-wrap: break-word;
   white-space: normal;
@@ -410,6 +410,7 @@ i:hover {
   -webkit-filter: blur(3px);
   margin-left: 1px;
   transition: 400ms ease-in-out ;
+  opacity: 0.5;
 }
 
 .lrc-container .lrc-active {
@@ -417,6 +418,7 @@ i:hover {
   font: 800 18px "alimama";
   filter: blur(0);
   -webkit-filter: blur(0);
+  opacity: 1;
 }
 
 .lrc-container .lrc-active2 {
