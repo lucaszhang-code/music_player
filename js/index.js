@@ -28,6 +28,13 @@ window.addEventListener("resize", function () {
   document.body.style.height = size.pageHeight + "px";
 });
 
+const visionTip=document.querySelector('.vision-tip');
+const tipClose=document.querySelector('#tip-close');
+tipClose.addEventListener('click',()=>{
+  visionTip.classList.add('visionTip-active1')
+  setTimeout(()=>visionTip.classList.add('visionTip-active2'),500)
+})
+
 const audio = document.querySelector("audio");
 const playButton = document.querySelector("#playButton");
 const coverImg = document.querySelector(".container .cover img");

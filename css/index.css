@@ -54,6 +54,63 @@ i:hover {
   }
 }
 
+.vision-tip{
+  z-index: 999;
+  position: absolute;
+  background-color: white;
+  color:black;
+  border-radius: 10px;
+  top: 30%;
+  width: 300px;
+  height: 400px;
+  box-shadow: 0 0 100vw 100vw rgba(0,0,0,0.5);
+  overflow: hidden;
+  transition: ease-in-out .5s;
+}
+
+#tip-close{
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  color:black;
+  font-size: 30px;
+}
+
+.vision-tip .tip-title{
+  text-align: center;
+  font:600 25px "alimama";
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.vision-tip li{
+  position: relative;
+  list-style: disc;
+  left: 10%;
+  font:400 16px "alimama";
+  line-height: 30px;
+}
+
+.vision-tip .vision{
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.visionTip-active1{
+  height: 0;
+}
+
+.visionTip-active2{
+  opacity: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .vision-tip{
+    top: 20%;
+  }
+}
+
 .container {
   position: relative;
   display: flex;
@@ -482,7 +539,7 @@ i:hover {
     font-weight: bold;
     filter: blur(0);
     -webkit-filter: blur(0);
-     }
+  }
 
   .lrc-container i {
     font-size: 40px;
@@ -658,7 +715,7 @@ i:hover {
   .list-active {
     transform: translateX(0);
     opacity: 1;
-    z-index: 999;
+    z-index: 900;
   }
 
   .list .list-title {
