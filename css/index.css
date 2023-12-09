@@ -11,6 +11,7 @@
 }
 
 body {
+  min-height:500px ;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -18,10 +19,10 @@ body {
   backdrop-filter: blur(100px);
   -webkit-backdrop-filter: blur(100px);
   transition: all 0.5s;
-  overflow: hidden;
+  /*overflow: hidden;*/
   user-select: none;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat:repeat;
   color: white;
 }
 
@@ -57,7 +58,7 @@ i:hover {
 .vision-tip{
   z-index: 999;
   position: absolute;
-  background-color: white;
+  background-color: whitesmoke;
   color:black;
   border-radius: 10px;
   top: 30%;
@@ -457,22 +458,21 @@ i:hover {
   height: auto;
   line-height: inherit;
   margin-top: 20px;
-  font: 500 18px "alimama";
+  font: 600 18px "Arial";
   color: white;
-  /*transition: 0.5s all;*/
   overflow-wrap: break-word;
   white-space: normal;
   justify-content: left;
   filter: blur(3px);
   -webkit-filter: blur(3px);
-  margin-left: 1px;
+  margin-left: 5px;
   transition: 400ms ease-in-out ;
   opacity: 0.5;
 }
 
 .lrc-container .lrc-active {
   color: white;
-  font: 800 18px "alimama";
+  font: 600 18px "Arial";
   filter: blur(0);
   -webkit-filter: blur(0);
   opacity: 1;
@@ -525,18 +525,15 @@ i:hover {
   }
 
   .lrc-container li {
-    font: 500 30px "Arial";
+    font: 600 30px "Arial";
     font-weight: normal;
     margin-top: 30px;
     width: 100%;
   }
 
   .lrc-container .lrc-active {
-    position: relative;
-    transform: scale(1.1);
     color: white;
-    font: 800 30px "Arial";
-    font-weight: bold;
+    font: 600 30px "Arial";
     filter: blur(0);
     -webkit-filter: blur(0);
   }
