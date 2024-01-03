@@ -19,7 +19,6 @@ body {
   backdrop-filter: blur(100px);
   -webkit-backdrop-filter: blur(100px);
   transition: all 0.5s;
-  /*overflow: hidden;*/
   user-select: none;
   background-size: cover;
   background-repeat:repeat;
@@ -759,6 +758,6 @@ i:hover {
 }
 
 @keyframes scrollText {
-  0% { transform: translateX(-100%); }
-  100% { transform: translateX(100%); }
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
 }

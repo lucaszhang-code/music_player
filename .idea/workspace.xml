@@ -6,7 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="87930848-9c2c-4334-b5f4-f44f5f0db969" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/HOYO MiX - 轻涟 La vaguelette .mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/HOYOMiX - Da Capo.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/HoneyComeBear - 十夏の花.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Islet,倚水 - 星になる (feat. 倚水).mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Islet,倚水 - 春を待つ (feat. 倚水).mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Sereno - 마지막 세계의 왈츠.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/YOASOBI - アイドル.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ナナツカゼ,PIKASONIC,なこたんまる - 春めく.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/花鋏キョウ - Starry.mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/lrc-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lrc-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/song-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/song-data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +61,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lucas/Desktop/工作/HTML学习/Java Script/APIs/练习网页&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lucas/Desktop/工作/HTML学习/canvas&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -124,7 +136,16 @@
       <workItem from="1702135348283" duration="7000" />
       <workItem from="1702135366967" duration="358000" />
       <workItem from="1702135737736" duration="173000" />
-      <workItem from="1702136088568" duration="1222000" />
+      <workItem from="1702136088568" duration="1515000" />
+      <workItem from="1702193697629" duration="4000" />
+      <workItem from="1702212053211" duration="18000" />
+      <workItem from="1702216052584" duration="27000" />
+      <workItem from="1702817912442" duration="9000" />
+      <workItem from="1703212733996" duration="1000" />
+      <workItem from="1703330714835" duration="32000" />
+      <workItem from="1704192938104" duration="1518000" />
+      <workItem from="1704194712762" duration="48000" />
+      <workItem from="1704269063315" duration="852000" />
     </task>
     <servers />
   </component>

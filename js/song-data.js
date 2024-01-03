@@ -3,59 +3,19 @@ let songIndex = 0;
 
 const songData = [
   {
+    url:'./assets/林俊杰 - 美人鱼.mp3',
+    cover: "http://p2.music.126.net/_0OAhWhIbg-nOP-6e4o-SA==/109951168111265583.jpg",
+    coverMini:"http://p2.music.126.net/_0OAhWhIbg-nOP-6e4o-SA==/109951168111265583.jpg?param=130y130"
+  },
+  {
     url: "./assets/李玖哲 - 夏天.mp3",
     cover: "http://p2.music.126.net/uJwtsPS6WOTD_YrqqvoPKg==/109951167216475692.jpg",
     coverMini:'https://p2.music.126.net/uJwtsPS6WOTD_YrqqvoPKg==/109951167216475692.jpg?param=130y130'
   },
   {
-    url: "./assets/ナナツカゼ,PIKASONIC,なこたんまる - 春めく.mp3",
-    cover: "http://p2.music.126.net/-Sd7hIm1AyLLTTIbBNOoow==/109951168583836413.jpg",
-    coverMini: 'https://p2.music.126.net/-Sd7hIm1AyLLTTIbBNOoow==/109951168583836413.jpg?param=130y130'
-  },
-  {
-    url: "./assets/HOYOMiX - Da Capo.mp3",
-    cover: "http://p1.music.126.net/awzv1LpuBJiKTeB7roh_Aw==/109951168434956885.jpg",
-    coverMini: 'http://p1.music.126.net/awzv1LpuBJiKTeB7roh_Aw==/109951168434956885.jpg?param=130y130'
-  },
-  {
     url: "./assets/任然 - 飞鸟和蝉 .mp3",
     cover: "//y.qq.com/music/photo_new/T002R300x300M000004C9Kg7275J7H_1.jpg?max_age=2592000",
     coverMini: '//y.qq.com/music/photo_new/T002R300x300M000004C9Kg7275J7H_1.jpg?max_age=2592000'
-  },
-  {
-    url: "./assets/Sereno - 마지막 세계의 왈츠.mp3",
-    cover: "http://p1.music.126.net/_snpBQeE96uf8XAhdYMXog==/7852712046706413.jpg",
-    coverMini: 'http://p1.music.126.net/_snpBQeE96uf8XAhdYMXog==/7852712046706413.jpg?param=130y130'
-  },
-  {
-    url: "./assets/YOASOBI - アイドル.mp3",
-    cover: "http://p1.music.126.net/mLJ_pKshFVtboLyD-4nBdA==/109951168573694568.jpg",
-    coverMini: 'http://p1.music.126.net/mLJ_pKshFVtboLyD-4nBdA==/109951168573694568.jpg?param=130y130'
-  },
-  {
-    url: "./assets/Islet,倚水 - 星になる (feat. 倚水).mp3",
-    cover: "http://p2.music.126.net/-Q6Ll6I9Cjz7feah9Bco0Q==/109951168104955725.jpg",
-    coverMini: 'http://p2.music.126.net/-Q6Ll6I9Cjz7feah9Bco0Q==/109951168104955725.jpg?param=130y130'
-  },
-  {
-    url: "./assets/Islet,倚水 - 春を待つ (feat. 倚水).mp3",
-    cover: "http://p2.music.126.net/q4y0QY6fZL-KtGOGyAsU3A==/109951165849787458.jpgg",
-    coverMini: 'http://p2.music.126.net/q4y0QY6fZL-KtGOGyAsU3A==/109951165849787458.jpg?param=130y130'
-  },
-  {
-    url: './assets/花鋏キョウ - Starry.mp3',
-    cover:'http://p2.music.126.net/N2byjXKeSi1vvIdRQt2Mbw==/109951166317775107.jpg',
-    coverMini: 'http://p2.music.126.net/N2byjXKeSi1vvIdRQt2Mbw==/109951166317775107.jpg?param=130y130'
-  },
-{
-  url: './assets/HOYO MiX - 轻涟 La vaguelette .mp3',
-  cover:'//y.qq.com/music/photo_new/T002R300x300M000004588aK2JRFN6_1.jpg?max_age=2592000',
-  coverMini: '//y.qq.com/music/photo_new/T002R300x300M000004588aK2JRFN6_1.jpg?max_age=2592000'
-},
-  {
-    url:'./assets/HoneyComeBear - 十夏の花.mp3',
-    cover:'http://p2.music.126.net/JtyHbggTMWhtJurY9Tbm7g==/109951168646287350.jpg',
-    coverMini: 'http://p2.music.126.net/JtyHbggTMWhtJurY9Tbm7g==/109951168646287350.jpg?param=130y130'
   },
   {
     url:'./assets/柏松 - 世间美好与你环环相扣.mp3',
