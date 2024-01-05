@@ -257,8 +257,8 @@ i:hover {
 .other {
   display: flex;
   width: 100%;
-  height: 30%;
-  /* border: 1px solid black; */
+  height: 20%;
+   /*border: 1px solid black;*/
   align-items: center;
   justify-content: space-evenly;
 }
@@ -427,7 +427,7 @@ i:hover {
   position: relative;
   display: flex;
   width: 80%;
-  height: 95%;
+  height: 80%;
   -webkit-mask-image: linear-gradient(
     to bottom,
     transparent,
@@ -457,7 +457,7 @@ i:hover {
   height: auto;
   line-height: inherit;
   margin-top: 20px;
-  font: 600 18px "Arial";
+  font: 600 20px "Arial";
   color: white;
   overflow-wrap: break-word;
   white-space: normal;
@@ -471,7 +471,6 @@ i:hover {
 
 .lrc-container .lrc-active {
   color: white;
-  font: 600 18px "Arial";
   filter: blur(0);
   -webkit-filter: blur(0);
   opacity: 1;
@@ -504,6 +503,7 @@ i:hover {
   }
 
   .content {
+    border: 1px solid black;
     height: 100%;
   }
 
@@ -524,7 +524,7 @@ i:hover {
   }
 
   .lrc-container li {
-    font: 600 30px "Arial";
+    font: 600 27px "Arial";
     font-weight: normal;
     margin-top: 30px;
     width: 100%;
@@ -532,7 +532,6 @@ i:hover {
 
   .lrc-container .lrc-active {
     color: white;
-    font: 600 30px "Arial";
     filter: blur(0);
     -webkit-filter: blur(0);
   }
@@ -624,10 +623,12 @@ i:hover {
 
 .list .playNowSongName{
   white-space: nowrap;
+  font-size: 16px;
 }
 
 .list .playNowSinger{
   white-space: nowrap;
+  font-size: 16px;
 }
 
 .playNow img {
@@ -658,6 +659,7 @@ i:hover {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  font-size: 16px;
 }
 
 .list .list-title {

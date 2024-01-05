@@ -102,8 +102,8 @@ audio.addEventListener("loadedmetadata", () => {
 
 //将背景颜色替换为背景图片
 const bgImage=(songIndex)=>{
-  document.body.style.backgroundImage=`url(${songData[songIndex].cover})`
-  console.log(songData[songIndex].cover)
+  document.body.style.backgroundImage=`url(${songData[songIndex].coverMini})`
+  console.log(songData[songIndex].coverMini)
 }
 
 audio.addEventListener("timeupdate", () => {
