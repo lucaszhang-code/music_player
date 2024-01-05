@@ -69,14 +69,14 @@ const textScroll=()=>{
 playButton.addEventListener("click", () => {
   if (audio.paused) {
     audio.play();
-    playButton.classList.remove("icon-bofang");
-    playButton.classList.add("icon-zanting");
+    playButton.classList.remove("icon-bofang2");
+    playButton.classList.add("icon-a-zanting1");
     coverImg.classList.add("cover-active");
     updateList(songIndex);
   } else {
     audio.pause();
-    playButton.classList.remove("icon-zanting");
-    playButton.classList.add("icon-bofang");
+    playButton.classList.remove("icon-a-zanting1");
+    playButton.classList.add("icon-bofang2");
     cover.style.boxShadow = `none`;
     coverImg.classList.remove("cover-active");
     audioPause(songIndex);
@@ -282,12 +282,12 @@ changeSong(songIndex);
 //判断音乐是否在播放
 const songPlay = () => {
   if (audio.play) {
-    playButton.classList.remove("icon-bofang");
-    playButton.classList.add("icon-zanting");
+    playButton.classList.remove("icon-bofang2");
+    playButton.classList.add("icon-a-zanting1");
     coverImg.classList.add("cover-active");
   } else {
-    playButton.classList.remove("icon-zanting");
-    playButton.classList.add("icon-bofang");
+    playButton.classList.remove("icon-a-zanting1g");
+    playButton.classList.add("icon-bofang2");
     cover.style.boxShadow = `none`;
     coverImg.classList.remove("cover-active");
   }

@@ -532,6 +532,7 @@ i:hover {
 
   .lrc-container .lrc-active {
     color: white;
+    font: 600 27px "Arial";
     filter: blur(0);
     -webkit-filter: blur(0);
   }

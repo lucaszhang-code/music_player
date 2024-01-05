@@ -88,7 +88,7 @@ const changeLrc = (i) => {
     let offset =
         liHeight +
         liHeights[index] / 2 +
-        (index+2) * marginTopValue[0] -
+        (index+5) * marginTopValue[0] -
         containerHeight / 2;
 
     if (offset < 0) offset = 0;

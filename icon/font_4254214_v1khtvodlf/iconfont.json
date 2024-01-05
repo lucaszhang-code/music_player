@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "38849689",
+      "name": "暂停 (1)",
+      "font_class": "a-zanting1",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "38849734",
+      "name": "播放2",
+      "font_class": "bofang2",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
       "icon_id": "37970905",
       "name": "取消全屏",
       "font_class": "quxiaoquanping",
