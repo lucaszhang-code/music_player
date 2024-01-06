@@ -236,7 +236,7 @@ i:hover {
   height: 90%;
   width: 0;
   /* background-color: skyblue; */
-  background: linear-gradient(to right, rgb(228, 226, 226), skyblue);
+  background: white;
   border-radius: 5px;
   transition: all 0.3s;
 }
@@ -457,7 +457,7 @@ i:hover {
   height: auto;
   line-height: inherit;
   margin-top: 20px;
-  font: 600 20px "Arial";
+  font: 800 20px "Arial";
   color: white;
   overflow-wrap: break-word;
   white-space: normal;
@@ -524,7 +524,7 @@ i:hover {
   }
 
   .lrc-container li {
-    font: 600 27px "Arial";
+    font: 800 27px "Arial";
     font-weight: normal;
     margin-top: 30px;
     width: 100%;
@@ -532,7 +532,6 @@ i:hover {
 
   .lrc-container .lrc-active {
     color: white;
-    font: 600 27px "Arial";
     filter: blur(0);
     -webkit-filter: blur(0);
   }

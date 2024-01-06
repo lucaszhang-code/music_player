@@ -6,26 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="87930848-9c2c-4334-b5f4-f44f5f0db969" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/周杰伦 - 七里香.mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/demo_index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/font_4254214_dz66hkfkxg9/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/font_4254214_dz66hkfkxg9/demo_index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/font_4254214_dz66hkfkxg9/iconfont.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/font_4254214_dz66hkfkxg9/iconfont.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/font_4254214_dz66hkfkxg9/iconfont.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/font_4254214_dz66hkfkxg9/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/font_4254214_dz66hkfkxg9/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/font_4254214_dz66hkfkxg9/iconfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/iconfont.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/iconfont.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/iconfont.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon/font_4254214_dz66hkfkxg9/iconfont.woff2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index-lrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index-lrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +137,9 @@
       <workItem from="1704194712762" duration="48000" />
       <workItem from="1704269063315" duration="1727000" />
       <workItem from="1704273351096" duration="719000" />
-      <workItem from="1704446778016" duration="3380000" />
+      <workItem from="1704446778016" duration="3482000" />
+      <workItem from="1704527769182" duration="1262000" />
+      <workItem from="1704554620639" duration="638000" />
     </task>
     <servers />
   </component>
