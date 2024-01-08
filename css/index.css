@@ -524,10 +524,11 @@ i:hover {
   }
 
   .lrc-container li {
-    font: 800 27px "Arial";
+    font: 800 35px "Arial";
     font-weight: normal;
     margin-top: 30px;
     width: 100%;
+    /*color:skyblue;*/
   }
 
   .lrc-container .lrc-active {
