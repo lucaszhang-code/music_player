@@ -115,8 +115,8 @@ i:hover {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  width: 300px;
-  height: 500px;
+  width: 350px;
+  height: 650px;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
@@ -178,7 +178,7 @@ i:hover {
 .song-singer {
   /*width: 100%;*/
   /* text-align: center; */
-  font: 500 20px "alimama";
+  font: 500 1.5em "alimama";
 }
 
 .song-singer {
@@ -401,8 +401,8 @@ i:hover {
 .lrc-container {
   position: relative;
   display: flex;
-  width: 400px;
-  height: 500px;
+  width: 450px;
+  height: 650px;
   border-radius: 10px;
   overflow: hidden;
   z-index: 1;
@@ -456,8 +456,8 @@ i:hover {
   position: relative;
   height: auto;
   line-height: inherit;
-  margin-top: 20px;
-  font: 800 20px "Arial";
+  margin-top: 23px;
+  font: 600 23px "Arial";
   color: white;
   overflow-wrap: break-word;
   white-space: normal;
@@ -524,7 +524,7 @@ i:hover {
   }
 
   .lrc-container li {
-    font: 800 35px "Arial";
+    font: 800 30px "Arial";
     font-weight: normal;
     margin-top: 30px;
     width: 100%;
@@ -544,8 +544,8 @@ i:hover {
 
 .list {
   display: flex;
-  width: 200px;
-  height: 500px;
+  width: 250px;
+  height: 650px;
   overflow: hidden;
   border-radius: 10px;
   z-index: 2;
