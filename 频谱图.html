@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+     canvas{
+         position: fixed;
+         bottom: 0;
+         left: 0;
+         width: 100%;
+         height: 12.5%; /* 等于屏幕总高度的1/8 */
+     }
+</style>
+<body>
+<audio src="./assets/NEEDY GIRL OVERDOSE ,KOTOKO ,Aiobahn - 月虹蝶 .mp3" controls></audio>
+<canvas></canvas>
+
+<script>
+    // 创建AudioContext实例
+    const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+
+    // 创建AnalyserNode用于频谱分析
+    const analyser = audioContext.createAnalyser();
+    analyser.fftSize = 1024; // 可以根据需要调整FFT大小
+    const bufferLength = analyser.frequencyBinCount;
+    const dataArray = new Uint8Array(bufferLength);
+
+    // 创建音频源
+    const audioElement = document.querySelector('audio');
+    const source = audioContext.createMediaElementSource(audioElement);
+    source.connect(analyser);
+    analyser.connect(audioContext.destination);
+
+    // 获取Canvas元素
+    const canvas = document.querySelector('canvas');
+    const canvasContext = canvas.getContext('2d');
+
+    // 考虑设备像素比率调整Canvas大小
+    const pixelRatio = window.devicePixelRatio || 1;
+    function resizeCanvas() {
+        canvas.width = (window.innerWidth * 0.6) * pixelRatio;
+        canvas.height = (window.innerHeight / 8) * pixelRatio;
+        canvas.style.width = window.innerWidth * 0.6 + 'px';
+        canvas.style.height = (window.innerHeight / 8) + 'px';
+        canvas.style.left = window.innerWidth * 0.2 + 'px'; // 居中
+        canvas.style.position = 'fixed';
+        canvas.style.bottom = '0';
+        canvasContext.scale(pixelRatio, pixelRatio);
+    }
+
+    // 调整Canvas大小
+    resizeCanvas();
+    window.addEventListener('resize', resizeCanvas);
+
+    // 动态绘制频谱图的函数
+    function draw() {
+        requestAnimationFrame(draw);
+
+        analyser.getByteFrequencyData(dataArray);
+
+        canvasContext.clearRect(0, 0, canvas.width, canvas.height);
+
+        const barWidth = (canvas.width / bufferLength / pixelRatio) * 2;
+        const maxHeightPercent = 0.8;
+
+        for (let i = 0; i < bufferLength / 2; i++) {
+            // 通过非线性缩放增强视觉效果
+            const barHeight = Math.pow(dataArray[i] / 255, 2.5) * (canvas.height / pixelRatio * maxHeightPercent);
+
+            canvasContext.fillStyle = 'rgba(144, 238, 144, 1)';
+
+            // 绘制左侧（从中间向左）
+            let x = (canvas.width / 2) - i * barWidth * 2;
+            canvasContext.fillRect(x, canvas.height / pixelRatio - barHeight, barWidth, barHeight);
+
+            // 绘制右侧（从中间向右）
+            x = (canvas.width / 2) + i * barWidth * 2;
+            canvasContext.fillRect(x, canvas.height / pixelRatio - barHeight, barWidth, barHeight);
+        }
+
+    }
+
+
+    draw();
+
+</script>
+</body>
+</html>

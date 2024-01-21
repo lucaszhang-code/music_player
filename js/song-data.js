@@ -41,6 +41,16 @@ const songData = [
     url:'./assets/周杰伦 - 七里香.mp3',
     cover:'//y.qq.com/music/photo_new/T002R300x300M000003DFRzD192KKD_1.jpg?max_age=2592000',
     coverMini: '//y.qq.com/music/photo_new/T002R300x300M000003DFRzD192KKD_1.jpg?max_age=2592000'
+  },
+  {
+    url:'./assets/NEEDY GIRL OVERDOSE,KOTOKO,Aiobahn - INTERNET OVERDOSE.mp3',
+    cover:'http://p2.music.126.net/CN5bP6hxB2TXmyMgAPKqHA==/109951165925710451.jpg',
+    coverMini: 'http://p2.music.126.net/CN5bP6hxB2TXmyMgAPKqHA==/109951165925710451.jpg?param=130y130'
+  },
+  {
+    url:'./assets/NEEDY GIRL OVERDOSE ,KOTOKO ,Aiobahn - 月虹蝶 .mp3',
+    cover: 'https://p2.music.126.net/7Fmj91RWcQHbLm0MP4e6zg==/109951169272996742.jpg',
+    coverMini: 'http://p2.music.126.net/7Fmj91RWcQHbLm0MP4e6zg==/109951169272996742.jpg?param=140y140'
   }
 ];
 
