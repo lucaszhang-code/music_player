@@ -766,7 +766,7 @@ canvas{
 @media screen and (max-width: 500px){
   canvas {
     filter: blur(5px);
-    -webkit-filter: blur(5px);
+    /*-webkit-filter: blur(5px);*/
     height: 1/6; /* 等于屏幕总高度的1/8 */
   }
 }
