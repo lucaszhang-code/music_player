@@ -7,10 +7,7 @@
     <list default="true" id="87930848-9c2c-4334-b5f4-f44f5f0db969" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font-family/AlimamaFangYuanTiVF-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lrc-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lrc-data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/song-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/song-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/canvas.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +153,7 @@
       <workItem from="1705740042901" duration="50000" />
       <workItem from="1705748531146" duration="947000" />
       <workItem from="1705842021569" duration="11882000" />
+      <workItem from="1705890421524" duration="2415000" />
     </task>
     <servers />
   </component>

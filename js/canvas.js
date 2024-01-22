@@ -20,13 +20,8 @@ const canvasContext = canvas.getContext('2d'); // 获取canvas的2D渲染上下�
 // 考虑设备像素比率调整Canvas大小
 const pixelRatio = window.devicePixelRatio || 1; // 获取设备的像素比率
 function resizeCanvas() {
-    canvas.width = (window.innerWidth * 0.6) * pixelRatio; // 根据设备像素比率设置canvas宽度
+    canvas.width = (window.innerWidth) * pixelRatio; // 根据设备像素比率设置canvas宽度
     canvas.height = (window.innerHeight / 8) * pixelRatio; // 根据设备像素比率设置canvas高度
-    canvas.style.width = '100%'; // 设置canvas的CSS宽度
-    canvas.style.height = (window.innerHeight / 8) + 'px'; // 设置canvas的CSS高度
-    // canvas.style.left = '10%'; // 将canvas居中
-    canvas.style.position = 'fixed'; // 设置canvas位置固定
-    canvas.style.bottom = '0'; // 设置canvas位于页面底部
     canvasContext.scale(pixelRatio, pixelRatio); // 根据像素比率缩放canvas绘制
 }
 
@@ -53,11 +48,11 @@ function draw() {
         canvasContext.fillStyle = 'rgba(144, 238, 144, 1)';
 
         // 绘制右侧（从中间向右）
-        let x = (canvas.width / 4) + i * barWidth*2 ;
+        let x = (canvas.width/4 ) + i * barWidth*2 ;
         canvasContext.fillRect(x, canvas.height / pixelRatio - barHeight, barWidth, barHeight);
 
         // 绘制左侧（从中间向左，镜像）
-      x = (canvas.width / 4) - (i + 1) * barWidth*2 ;
+     x = (canvas.width /4) - (i) * barWidth*2 ;
         canvasContext.fillRect(x, canvas.height / pixelRatio - barHeight, barWidth, barHeight);
     }
 }
