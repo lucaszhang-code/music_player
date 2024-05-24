@@ -51,6 +51,11 @@ const songData = [
     url:'./assets/NEEDY GIRL OVERDOSE ,KOTOKO ,Aiobahn - 月虹蝶 .mp3',
     cover: 'https://p2.music.126.net/7Fmj91RWcQHbLm0MP4e6zg==/109951169272996742.jpg',
     coverMini: 'http://p2.music.126.net/7Fmj91RWcQHbLm0MP4e6zg==/109951169272996742.jpg?param=140y140'
+  },
+  {
+    url:'./assets/Shiggy Jr. - サマータイムラブ.mp3',
+    cover: 'https://p2.music.126.net/9SEnfKIvSPpXYdu_mM_azw==/7960464185727595.jpg',
+    coverMini: 'https://p2.music.126.net/9SEnfKIvSPpXYdu_mM_azw==/7960464185727595.jpg?param=130y130'
   }
 ];
 
