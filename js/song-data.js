@@ -56,6 +56,11 @@ const songData = [
     url:'./assets/Shiggy Jr. - サマータイムラブ.mp3',
     cover: 'https://p2.music.126.net/9SEnfKIvSPpXYdu_mM_azw==/7960464185727595.jpg',
     coverMini: 'https://p2.music.126.net/9SEnfKIvSPpXYdu_mM_azw==/7960464185727595.jpg?param=130y130'
+  },
+  {
+    url:'./assets/知更鸟,HOYOMiX,Chevy - 希望有羽毛和翅膀.mp3',
+    cover:'https://p2.music.126.net/aR4BlDNkA84tFbg8bBpriA==/109951169585655912.jpg',
+    coverMini:'https://p2.music.126.net/aR4BlDNkA84tFbg8bBpriA==/109951169585655912.jpg?param=130y130'
   }
 ];
 

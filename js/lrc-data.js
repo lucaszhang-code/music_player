@@ -669,5 +669,60 @@ const lrc = [
 [03:41.344]神様 この季節を<br>神啊
 [03:44.606]ずっと ずっと ずっと<br>让这季节
 [03:57.901]永遠に…<br>一直一直一直驻足不变
-`
+`,
+    `
+    [00:00.000]作词 : Ruby Qu
+[00:01.000]作曲 : 王可鑫 Eli.W (HOYO-MiX)
+[00:02.000]编曲 Arranger : 王可鑫 Eli.W (HOYO-MiX)
+[00:03.000]制作人 Producer : 王可鑫 Eli.W (HOYO-MiX)
+[00:14.933]We rise together as our destiny unfolds<br>随着命运的展开，就让我们一同迎战
+[00:22.596]We face the darkness and our trials are yet untold<br>而考验尚未结束，我们仍需直面黑暗
+[00:29.328]Through the shadows of despair<br>穿过绝望的阴影
+[00:33.451]Oh, in silence, hopes we share<br>在沉默中，我们共享希望
+[00:39.306]To chase our dreams that we’ve declared<br>只为追逐我们宣告中的理想
+[00:44.536]We glimpse, through our eyes<br>我们曾尝试多看一眼
+[00:48.568]Yet fools, blind our sights<br>却被无知蒙蔽了视线
+[00:53.048]Can’t make what they say<br>既然听不懂他们的注解
+[00:55.014]We’ll find our way, we’ll find our way<br>那就由我们找寻自己该走的路
+[00:59.568]Heads up! The wheels are spinning<br>请注意！命运的车轮正在转动
+[01:03.781]Across the plains, in valleys deep<br>跨越平原，穿过深谷
+[01:07.292]To dawn, the wheels that sing<br>向着黎明，这车轮行滚滚而行歌唱着
+[01:11.152]An unending dream!<br>一个无尽的梦！
+[01:14.583]Heads up! the tracks are running<br>请注意！轨道已然在运转
+[01:18.678]Across the plains, where shadows hide<br>穿过阴霾藏匿的平原
+[01:22.265]We run, we stride~<br>我们奔跑，我们向前
+[01:30.454]In the face of fear and plight, and yet we hold our ground<br>面对恐惧和困境，我们依然坚守阵地
+[01:38.234]In life we stand, and strive, our victory is found<br>历久弥坚，胜利定会在望
+[01:44.468]And the storms we’ve weathered through<br>我们已穿越风雨
+[01:48.338]And we hope in the light of truth<br>只希望能沐浴在真理的光芒中
+[01:53.060]To break free from chains, and come anew<br>挣脱枷锁，重获新生
+[01:59.558]Heads up! The wheels are spinning<br>请注意！命运的车轮正在转动
+[02:03.826]Across the plains, in valleys deep<br>跨越平原，穿过深谷
+[02:07.334]To dawn, the wheels that sing<br>向着黎明，这车轮行滚滚而行歌唱着
+[02:11.342]An unending dream!<br>一个无尽的梦！
+[02:14.772]Heads up! the tracks are running<br>请注意！轨道已然在运转中
+[02:18.628]Across the plains, where shadows hide<br>穿过了阴霾藏匿的平原
+[02:22.390]We run; we stride~<br>我们奔跑，我们向前
+[02:59.747]Heads up! A steady rhythm<br>抬起头！跟着坚定的节奏
+[03:03.910]A destination that’s ever near<br>终点已近在咫尺
+[03:07.508]It comes! Stride to our kingdom<br>迈向我们的理想之地
+[03:11.378]And see the light of day<br>让一切重见曙光
+[03:14.839]Heads up! the wheels are singing<br>请注意！命运的车轮正在歌唱
+[03:18.710]The whispers and secrets they’d keep<br>他们保守着苦痛的秘密和私语
+[03:22.360]To hope! We bound~<br>而我们终将迎来希望
+[03:30.552]Break free, we chased our dreams, beneath the starry night<br>挣脱束缚，我们在星空下追逐梦想
+[03:38.560]In the face of god, we rose, as one<br>面对神灵，我们团结一致，奋勇向前
+[03:44.994]人声 Vocal Artist：Chevy
+[03:45.410]木吉他 Acoustic Guitar：陈义
+[03:45.826]电吉他 Electric Guitar：陈义
+[03:46.242]架子鼓 Drums：眭逸凡Patrick
+[03:46.658]和声 Backing Vocal：Chevy/宫奇Gon(HOYO-MiX)/温菁 Jing.W (HOYO-MiX)/林一凡Fan (HOYO-MiX)/王可鑫 Eli.W (HOYO-MiX)
+[03:47.074]人声录音棚 Vocal Recording Studio：The Hideout Recording Studio
+[03:47.490]人声录音师 Vocal Recording Engineer：Nik Hotchkiss
+[03:47.906]乐器录音棚 Instrumental Recording Studio：升赫录音棚Soundhub Studio
+[03:48.322]乐器录音师 Instrumental Recording Engineer：Kevin刘瀚文@Soundhub Studios
+[03:48.738]混音师 Mixing Engineer：阿烈@Soundhub Studios
+[03:49.154]母带制作 Mastering Engineer：宫奇Gon (HOYO-MiX)
+[03:49.570]出品 Produced by：HOYO-MiX
+    `
 ];
