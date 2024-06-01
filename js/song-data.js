@@ -61,6 +61,11 @@ const songData = [
     url:'./assets/知更鸟,HOYOMiX,Chevy - 希望有羽毛和翅膀.mp3',
     cover:'https://p2.music.126.net/aR4BlDNkA84tFbg8bBpriA==/109951169585655912.jpg',
     coverMini:'https://p2.music.126.net/aR4BlDNkA84tFbg8bBpriA==/109951169585655912.jpg?param=130y130'
+  },
+  {
+    url:'./assets/Aimer - Refrain.mp3',
+    cover: 'https://p1.music.126.net/wAxnnUZnkN7Soqf7nhjThQ==/109951166663296887.jpg',
+    coverMini: 'https://p1.music.126.net/wAxnnUZnkN7Soqf7nhjThQ==/109951166663296887.jpg?param=130y130'
   }
 ];
 

@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87930848-9c2c-4334-b5f4-f44f5f0db969" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2024_5_25_1_09____.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2024_5_25_下午1_09_取消提交了更改_[更改]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2024_5_25_下午1_09_取消提交了更改_[更改]/知更鸟,HOYO-MiX,Chevy - 希望有羽毛和翅膀.mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index-lrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index-lrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/lrc-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lrc-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/song-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/song-data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +184,8 @@
       <workItem from="1706770135388" duration="91000" />
       <workItem from="1716475175310" duration="1007000" />
       <workItem from="1716476200542" duration="57000" />
-      <workItem from="1716615058218" duration="363000" />
+      <workItem from="1716615058218" duration="1617000" />
+      <workItem from="1717242565491" duration="519000" />
     </task>
     <servers />
   </component>
