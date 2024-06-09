@@ -66,6 +66,11 @@ const songData = [
     url:'./assets/Aimer - Refrain.mp3',
     cover: 'https://p1.music.126.net/wAxnnUZnkN7Soqf7nhjThQ==/109951166663296887.jpg',
     coverMini: 'https://p1.music.126.net/wAxnnUZnkN7Soqf7nhjThQ==/109951166663296887.jpg?param=130y130'
+  },
+  {
+    url:'./assets/Aimer - End of All.mp3',
+    cover: 'https://p1.music.126.net/uoRbMR8CMu16-a_sxczMVA==/109951169629655590.jpg',
+    coverMini: 'https://p1.music.126.net/uoRbMR8CMu16-a_sxczMVA==/109951169629655590.jpg?param=130y130'
   }
 ];
 

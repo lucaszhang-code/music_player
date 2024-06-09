@@ -788,5 +788,57 @@ const lrc = [
 [04:14.960]What a good thing we lose<br>多么幸运 我们错失彼此
 [04:18.010]What a bad thing we knew<br>何其不幸 我们曾经相知
 [04:21.040]触れられずにいれたら 笑えたかな?<br>若是不曾为其所触动 还能欢笑如此吗?
+    `,
+    `
+[00:00.000]
+[00:00.000]
+[00:00.000]
+[00:00.000]作词 : Aimer
+[00:01.000]作曲 : 吉田育子
+[00:15.518]Time slowly passes by eternity<br>时间仿佛永恒 缓缓流淌
+[00:18.501]Our future is all filled with unknown<br>我们的未来 被未知填满
+[00:21.572]Where are we heading so confused<br>前路是如此迷茫
+[00:24.701]This our new beginning<br>这是我们新的开始
+[00:29.187]Can you feel the wheel of fate moving forward<br>你能否感受到命运的齿轮正向前滚动
+[00:32.382]Your world and mine intense gravity<br>你与我的世界被重力牵引
+[00:35.388]Beyond what is out there across the sky<br>超越天空之外
+[00:38.454]Our never-ending space and time<br>越过我们永无止境的空间与时间
+[00:43.020]Is this war<br>这是战争
+[00:44.613]Is this fate<br>还是命运
+[00:45.913]Is this what we were destined to be<br>是否你我命中注定
+[00:48.980]No clarity<br>并不清晰
+[00:50.408]Just serenity<br>唯有宁静
+[00:51.763]I bid you farewell forever<br>我与你永别
+[00:55.262]It’s so faraway foreign sky, immortality<br>遥远的异国天空 永垂不朽
+[01:02.747]you became the perfect sacrifice<br>你成为了完美的牺牲品
+[01:07.272]I will stay with you till the end of time<br>我会陪着你 直到时间的尽头
+[01:12.215]To save you from the truth<br>只为将你从真相中拯救出来
+[01:15.077]Please remember, only believe what I said to you<br>请记住 只能相信我对你所说的一切
+[01:19.941]See through your eyes<br>透过你的眼睛看这世界
+[01:23.000]Tell me what did you see in the past<br>告诉我 你在过去看到了什么
+[01:27.373]And in the future<br>而在未来
+[01:28.939]Is there any end to this at all<br>这一切是否有个尽头
+[01:32.101]Show me the truth and end it all<br>向我展露真相 结束这一切
+[01:53.789]I’ll find a way to end this all right now<br>我会找到一种方法 来结束这一切
+[01:56.935]You’ll find a way to approve of me<br>你会找到一种方法 将我认可
+[02:00.061]But I’m sure you will crash me to the ground<br>但我确信 你会将我重摔在地
+[02:03.115]It’s all over again<br>而一切又将重新开始
+[02:10.458]Is this war<br>这是战争
+[02:12.166]Is this fate<br>还是命运
+[02:13.513]Is this what we were destined to be<br>是否你我命中注定
+[02:16.737]No clarity<br>并不清晰
+[02:18.020]Just serenity<br>唯有宁静
+[02:19.483]I bid you farewell forever<br>我与你永别
+[02:24.500]It’s so faraway foreign sky, immortality<br>遥远的异国天空 永垂不朽
+[02:31.986]you became the perfect sacrifice<br>你成为了完美的牺牲品
+[02:36.592]I will stay with you till the end of time<br>我会陪着你 直到时间的尽头
+[02:41.403]To save you from the truth<br>只为将你从真相中拯救出来
+[02:44.326]Please remember, only believe what I said to you<br>请记住 只能相信我对你所说的一切
+[02:49.101]See through your eyes<br>透过你的眼睛看这世界
+[02:52.150]I ask myself will fate change for me<br>我问着自己 命运是否愿为我改变
+[02:56.622]Will we meet again<br>还是会再度将我扰乱
+[02:58.178]How long do we have to wait to end<br>尽头 我们何时才能等来
+[03:01.371]Please live the life I never had<br>请活出 我从未有过的生活
+[03:07.409]Please live the life I never had<br>请活出 我从未有过的生活
     `
 ];
